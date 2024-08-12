@@ -62,6 +62,8 @@
   <ItemGroup>
     <Compile Include="Assets\Class2th (Script)\Scripts\Stats.cs" />
     <Compile Include="Assets\Class2th (Script)\Scripts\Dinosaur.cs" />
+    <Compile Include="Assets\Class3th (GetComponent)\Scripts\StoneUnit.cs" />
+    <Compile Include="Assets\Class3th (GetComponent)\Scripts\Move.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

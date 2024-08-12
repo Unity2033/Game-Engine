@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class2th (script)\\scripts\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class2th (script)\\scripts\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\assets\\class3th (getcomponent)\\scripts\\stoneunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class3th (getcomponent)\\scripts\\stoneunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class2th (script)\\scripts\\dinosaur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class3th (getcomponent)\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class3th (getcomponent)\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\assets\\class2th (script)\\scripts\\dinosaur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class2th (script)\\scripts\\dinosaur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\assets\\class2th (script)\\scripts\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class2th (script)\\scripts\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Move.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class3th (GetComponent)\\Scripts\\Move.cs",
+              "RelativeDocumentMoniker": "Assets\\Class3th (GetComponent)\\Scripts\\Move.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class3th (GetComponent)\\Scripts\\Move.cs",
+              "RelativeToolTip": "Assets\\Class3th (GetComponent)\\Scripts\\Move.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T04:42:21.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StoneUnit.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class3th (GetComponent)\\Scripts\\StoneUnit.cs",
+              "RelativeDocumentMoniker": "Assets\\Class3th (GetComponent)\\Scripts\\StoneUnit.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class3th (GetComponent)\\Scripts\\StoneUnit.cs",
+              "RelativeToolTip": "Assets\\Class3th (GetComponent)\\Scripts\\StoneUnit.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T04:41:25.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Stats.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class2th (Script)\\Scripts\\Stats.cs",
               "RelativeDocumentMoniker": "Assets\\Class2th (Script)\\Scripts\\Stats.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class2th (Script)\\Scripts\\Stats.cs",
               "RelativeToolTip": "Assets\\Class2th (Script)\\Scripts\\Stats.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAIAwwA8AAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAADgvw8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T06:03:17.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Dinosaur.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class2th (Script)\\Scripts\\Dinosaur.cs",
               "RelativeDocumentMoniker": "Assets\\Class2th (Script)\\Scripts\\Dinosaur.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class2th (Script)\\Scripts\\Dinosaur.cs",
               "RelativeToolTip": "Assets\\Class2th (Script)\\Scripts\\Dinosaur.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAywDwAAAAXAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAUwAkAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T04:34:38.712Z",
               "EditorCaption": ""
