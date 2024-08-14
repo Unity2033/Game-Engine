@@ -362,6 +362,7 @@
 "Assets/Class4th (Translate)/Scripts/AirCraft.cs"
 "Assets/Class4th (Translate)/Scripts/Cloud.cs"
 "Assets/Class4th (Translate)/Scripts/PositionManager.cs"
+"Assets/Class5th (Animation)/Scripts/Mousey.cs"
 -langversion:9.0
 
 /deterministic
