@@ -60,6 +60,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Class6th (User Interface)\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\Class6th (User Interface)\Scripts\Select.cs" />
     <Compile Include="Assets\Class5th (Animation)\Scripts\Mousey.cs" />
     <Compile Include="Assets\Class4th (Translate)\Scripts\Cloud.cs" />
     <Compile Include="Assets\Class2th (Script)\Scripts\Stats.cs" />

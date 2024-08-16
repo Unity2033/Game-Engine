@@ -363,6 +363,8 @@
 "Assets/Class4th (Translate)/Scripts/Cloud.cs"
 "Assets/Class4th (Translate)/Scripts/PositionManager.cs"
 "Assets/Class5th (Animation)/Scripts/Mousey.cs"
+"Assets/Class6th (User Interface)/Scripts/MenuManager.cs"
+"Assets/Class6th (User Interface)/Scripts/Select.cs"
 -langversion:9.0
 
 /deterministic
