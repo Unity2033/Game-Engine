@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Class6th (User Interface)\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\Class8th (Instantiate)\Scripts\CreateManager.cs" />
     <Compile Include="Assets\Class6th (User Interface)\Scripts\Select.cs" />
     <Compile Include="Assets\Class5th (Animation)\Scripts\Mousey.cs" />
     <Compile Include="Assets\Class4th (Translate)\Scripts\Cloud.cs" />
