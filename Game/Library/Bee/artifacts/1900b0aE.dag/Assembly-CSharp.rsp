@@ -368,6 +368,7 @@
 "Assets/Class7th (Prefab)/Scripts/Health.cs"
 "Assets/Class7th (Prefab)/Scripts/Mummy.cs"
 "Assets/Class8th (Instantiate)/Scripts/CreateManager.cs"
+"Assets/Class9th (Collision)/Scripts/Knight.cs"
 -langversion:9.0
 
 /deterministic

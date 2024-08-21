@@ -67,6 +67,7 @@
     <Compile Include="Assets\Class4th (Translate)\Scripts\Cloud.cs" />
     <Compile Include="Assets\Class2th (Script)\Scripts\Stats.cs" />
     <Compile Include="Assets\Class2th (Script)\Scripts\Dinosaur.cs" />
+    <Compile Include="Assets\Class9th (Collision)\Scripts\Knight.cs" />
     <Compile Include="Assets\Class7th (Prefab)\Scripts\Mummy.cs" />
     <Compile Include="Assets\Class3th (GetComponent)\Scripts\StoneUnit.cs" />
     <Compile Include="Assets\Class3th (GetComponent)\Scripts\Move.cs" />
