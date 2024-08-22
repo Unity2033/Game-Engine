@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class10th (sound)\\scripts\\swarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class10th (sound)\\scripts\\swarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class10th (sound)\\scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class10th (sound)\\scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class9th (collision)\\scripts\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class9th (collision)\\scripts\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class8th (instantiate)\\scripts\\createmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\assets\\class8th (instantiate)\\scripts\\createmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class8th (instantiate)\\scripts\\createmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -71,19 +79,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Swarm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class10th (Sound)\\Scripts\\Swarm.cs",
+              "RelativeDocumentMoniker": "Assets\\Class10th (Sound)\\Scripts\\Swarm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class10th (Sound)\\Scripts\\Swarm.cs",
+              "RelativeToolTip": "Assets\\Class10th (Sound)\\Scripts\\Swarm.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T04:38:24.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SoundManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class10th (Sound)\\Scripts\\SoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Class10th (Sound)\\Scripts\\SoundManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class10th (Sound)\\Scripts\\SoundManager.cs",
+              "RelativeToolTip": "Assets\\Class10th (Sound)\\Scripts\\SoundManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T04:32:57.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Knight.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class9th (Collision)\\Scripts\\Knight.cs",
               "RelativeDocumentMoniker": "Assets\\Class9th (Collision)\\Scripts\\Knight.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class9th (Collision)\\Scripts\\Knight.cs",
               "RelativeToolTip": "Assets\\Class9th (Collision)\\Scripts\\Knight.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAswCoAAAAFAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAMBbwCoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T04:35:31.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CreateManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class8th (Instantiate)\\Scripts\\CreateManager.cs",
               "RelativeDocumentMoniker": "Assets\\Class8th (Instantiate)\\Scripts\\CreateManager.cs",
@@ -91,12 +125,11 @@
               "RelativeToolTip": "Assets\\Class8th (Instantiate)\\Scripts\\CreateManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T04:28:17.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T04:28:17.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Health.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class7th (Instantiate)\\Scripts\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Class7th (Instantiate)\\Scripts\\Health.cs",
@@ -107,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Mummy.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class7th (Instantiate)\\Scripts\\Mummy.cs",
               "RelativeDocumentMoniker": "Assets\\Class7th (Instantiate)\\Scripts\\Mummy.cs",
@@ -119,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Select.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class6th (User Interface)\\Scripts\\Select.cs",
               "RelativeDocumentMoniker": "Assets\\Class6th (User Interface)\\Scripts\\Select.cs",
@@ -131,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class6th (User Interface)\\Scripts\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Class6th (User Interface)\\Scripts\\MenuManager.cs",
@@ -143,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Mousey.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class5th (Animation)\\Scripts\\Mousey.cs",
               "RelativeDocumentMoniker": "Assets\\Class5th (Animation)\\Scripts\\Mousey.cs",
@@ -155,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Cloud.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class4th (Translate)\\Scripts\\Cloud.cs",
               "RelativeDocumentMoniker": "Assets\\Class4th (Translate)\\Scripts\\Cloud.cs",
@@ -167,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PositionManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class4th (Translate)\\Scripts\\PositionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Class4th (Translate)\\Scripts\\PositionManager.cs",
@@ -179,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AirCraft.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class4th (Translate)\\Scripts\\AirCraft.cs",
               "RelativeDocumentMoniker": "Assets\\Class4th (Translate)\\Scripts\\AirCraft.cs",
@@ -191,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Move.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class3th (GetComponent)\\Scripts\\Move.cs",
               "RelativeDocumentMoniker": "Assets\\Class3th (GetComponent)\\Scripts\\Move.cs",
@@ -203,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "StoneUnit.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class3th (GetComponent)\\Scripts\\StoneUnit.cs",
               "RelativeDocumentMoniker": "Assets\\Class3th (GetComponent)\\Scripts\\StoneUnit.cs",
@@ -215,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Stats.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class2th (Script)\\Scripts\\Stats.cs",
               "RelativeDocumentMoniker": "Assets\\Class2th (Script)\\Scripts\\Stats.cs",
@@ -227,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Dinosaur.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class2th (Script)\\Scripts\\Dinosaur.cs",
               "RelativeDocumentMoniker": "Assets\\Class2th (Script)\\Scripts\\Dinosaur.cs",
