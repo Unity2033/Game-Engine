@@ -60,22 +60,27 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Class11th (RayCast)\Scripts\Dressing.cs" />
     <Compile Include="Assets\Class6th (User Interface)\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Class8th (Instantiate)\Scripts\CreateManager.cs" />
     <Compile Include="Assets\Class6th (User Interface)\Scripts\Select.cs" />
     <Compile Include="Assets\Class5th (Animation)\Scripts\Mousey.cs" />
     <Compile Include="Assets\Class4th (Translate)\Scripts\Cloud.cs" />
     <Compile Include="Assets\Class10th (Sound)\Scripts\Swarm.cs" />
+    <Compile Include="Assets\Class11th (RayCast)\Scripts\InterfaceManager.cs" />
     <Compile Include="Assets\Class2th (Script)\Scripts\Stats.cs" />
     <Compile Include="Assets\Class2th (Script)\Scripts\Dinosaur.cs" />
     <Compile Include="Assets\Class9th (Collision)\Scripts\Knight.cs" />
     <Compile Include="Assets\Class10th (Sound)\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Class7th (Prefab)\Scripts\Mummy.cs" />
+    <Compile Include="Assets\Class11th (RayCast)\Scripts\Table.cs" />
+    <Compile Include="Assets\Class11th (RayCast)\Scripts\Mouse.cs" />
     <Compile Include="Assets\Class3th (GetComponent)\Scripts\StoneUnit.cs" />
     <Compile Include="Assets\Class3th (GetComponent)\Scripts\Move.cs" />
     <Compile Include="Assets\Class7th (Prefab)\Scripts\Health.cs" />
     <Compile Include="Assets\Class4th (Translate)\Scripts\PositionManager.cs" />
     <Compile Include="Assets\Class4th (Translate)\Scripts\AirCraft.cs" />
+    <Compile Include="Assets\Class11th (RayCast)\Scripts\Almirah.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Class4th (Translate)\Understone\Free Aircraft Pack\readme.txt" />
