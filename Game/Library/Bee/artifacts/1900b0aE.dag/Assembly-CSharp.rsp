@@ -362,6 +362,8 @@
 "Assets/Class11th (RayCast)/Scripts/InterfaceManager.cs"
 "Assets/Class11th (RayCast)/Scripts/Mouse.cs"
 "Assets/Class11th (RayCast)/Scripts/Table.cs"
+"Assets/Class12th (Animation Retargeting)/Scripts/Character.cs"
+"Assets/Class12th (Animation Retargeting)/Scripts/DataManager.cs"
 "Assets/Class2th (Script)/Scripts/Dinosaur.cs"
 "Assets/Class2th (Script)/Scripts/Stats.cs"
 "Assets/Class3th (GetComponent)/Scripts/Move.cs"

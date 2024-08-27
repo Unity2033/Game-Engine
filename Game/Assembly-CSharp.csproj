@@ -75,12 +75,14 @@
     <Compile Include="Assets\Class7th (Prefab)\Scripts\Mummy.cs" />
     <Compile Include="Assets\Class11th (RayCast)\Scripts\Table.cs" />
     <Compile Include="Assets\Class11th (RayCast)\Scripts\Mouse.cs" />
+    <Compile Include="Assets\Class12th (Animation Retargeting)\Scripts\Character.cs" />
     <Compile Include="Assets\Class3th (GetComponent)\Scripts\StoneUnit.cs" />
     <Compile Include="Assets\Class3th (GetComponent)\Scripts\Move.cs" />
     <Compile Include="Assets\Class7th (Prefab)\Scripts\Health.cs" />
     <Compile Include="Assets\Class4th (Translate)\Scripts\PositionManager.cs" />
     <Compile Include="Assets\Class4th (Translate)\Scripts\AirCraft.cs" />
     <Compile Include="Assets\Class11th (RayCast)\Scripts\Almirah.cs" />
+    <Compile Include="Assets\Class12th (Animation Retargeting)\Scripts\DataManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Class4th (Translate)\Understone\Free Aircraft Pack\readme.txt" />
