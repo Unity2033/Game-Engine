@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class DataManager : MonoBehaviour
 {
     [SerializeField] int score;
+    [SerializeField] ScoreUI scoreUI;
 
     void Awake()
     {
@@ -13,7 +15,10 @@ public class DataManager : MonoBehaviour
 
     public void IncreaseScore()
     {
-        score += 10;
+        int random = Random.Range(5, 11);
+        score += random;
+
+        scoreUI.OnUpdate(random);
         PlayerPrefs.SetInt("Score", score);
     }
 
@@ -25,5 +30,12 @@ public class DataManager : MonoBehaviour
     public void Save()
     {
         PlayerPrefs.Save();
+    }
+
+    public void Initialized()
+    {
+        PlayerPrefs.DeleteAll();
+
+        Load();
     }
 }

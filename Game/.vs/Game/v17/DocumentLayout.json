@@ -3,27 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class12th (animation retargeting)\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class12th (animation retargeting)\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class13th (light)\\scripts\\parallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class13th (light)\\scripts\\parallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class12th (animation retargeting)\\scripts\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class13th (light)\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class13th (light)\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\assets\\class12th (animation retargeting)\\scripts\\scoreui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class12th (animation retargeting)\\scripts\\scoreui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\assets\\class12th (animation retargeting)\\scripts\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class12th (animation retargeting)\\scripts\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\assets\\class12th (animation retargeting)\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class12th (animation retargeting)\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\assets\\class11th (raycast)\\scripts\\interfacemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class11th (raycast)\\scripts\\interfacemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class11th (raycast)\\scripts\\dressing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\assets\\class11th (raycast)\\scripts\\dressing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class11th (raycast)\\scripts\\dressing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class11th (raycast)\\scripts\\almirah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\assets\\class11th (raycast)\\scripts\\almirah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class11th (raycast)\\scripts\\almirah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\game\\assets\\class11th (raycast)\\scripts\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\assets\\class11th (raycast)\\scripts\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\class11th (raycast)\\scripts\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -102,11 +114,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Parallax.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class13th (Light)\\Scripts\\Parallax.cs",
+              "RelativeDocumentMoniker": "Assets\\Class13th (Light)\\Scripts\\Parallax.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class13th (Light)\\Scripts\\Parallax.cs",
+              "RelativeToolTip": "Assets\\Class13th (Light)\\Scripts\\Parallax.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:08:40.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Spawner.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class13th (Light)\\Scripts\\Spawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Class13th (Light)\\Scripts\\Spawner.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class13th (Light)\\Scripts\\Spawner.cs",
+              "RelativeToolTip": "Assets\\Class13th (Light)\\Scripts\\Spawner.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvwYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T05:34:02.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScoreUI.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class12th (Animation Retargeting)\\Scripts\\ScoreUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Class12th (Animation Retargeting)\\Scripts\\ScoreUI.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class12th (Animation Retargeting)\\Scripts\\ScoreUI.cs",
+              "RelativeToolTip": "Assets\\Class12th (Animation Retargeting)\\Scripts\\ScoreUI.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T04:10:27.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Table.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class11th (RayCast)\\Scripts\\Table.cs",
               "RelativeDocumentMoniker": "Assets\\Class11th (RayCast)\\Scripts\\Table.cs",
@@ -114,12 +164,11 @@
               "RelativeToolTip": "Assets\\Class11th (RayCast)\\Scripts\\Table.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T05:44:00.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T05:44:00.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Almirah.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class11th (RayCast)\\Scripts\\Almirah.cs",
               "RelativeDocumentMoniker": "Assets\\Class11th (RayCast)\\Scripts\\Almirah.cs",
@@ -127,12 +176,11 @@
               "RelativeToolTip": "Assets\\Class11th (RayCast)\\Scripts\\Almirah.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T05:43:59.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T05:43:59.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Dressing.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class11th (RayCast)\\Scripts\\Dressing.cs",
               "RelativeDocumentMoniker": "Assets\\Class11th (RayCast)\\Scripts\\Dressing.cs",
@@ -140,38 +188,35 @@
               "RelativeToolTip": "Assets\\Class11th (RayCast)\\Scripts\\Dressing.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T05:43:58.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T05:43:58.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class12th (Animation Retargeting)\\Scripts\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\Class12th (Animation Retargeting)\\Scripts\\Character.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class12th (Animation Retargeting)\\Scripts\\Character.cs",
               "RelativeToolTip": "Assets\\Class12th (Animation Retargeting)\\Scripts\\Character.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAswBkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T05:30:15.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T05:30:15.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DataManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class12th (Animation Retargeting)\\Scripts\\DataManager.cs",
               "RelativeDocumentMoniker": "Assets\\Class12th (Animation Retargeting)\\Scripts\\DataManager.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class12th (Animation Retargeting)\\Scripts\\DataManager.cs",
               "RelativeToolTip": "Assets\\Class12th (Animation Retargeting)\\Scripts\\DataManager.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAADwvxEAAAAEAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T05:19:54.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T05:19:54.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "InterfaceManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class11th (RayCast)\\Scripts\\InterfaceManager.cs",
               "RelativeDocumentMoniker": "Assets\\Class11th (RayCast)\\Scripts\\InterfaceManager.cs",
@@ -179,12 +224,11 @@
               "RelativeToolTip": "Assets\\Class11th (RayCast)\\Scripts\\InterfaceManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAA+wAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T05:43:52.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T05:43:52.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Mouse.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class11th (RayCast)\\Scripts\\Mouse.cs",
               "RelativeDocumentMoniker": "Assets\\Class11th (RayCast)\\Scripts\\Mouse.cs",
@@ -192,12 +236,11 @@
               "RelativeToolTip": "Assets\\Class11th (RayCast)\\Scripts\\Mouse.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAAwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T04:26:42.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T04:26:42.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Swarm.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class10th (Sound)\\Scripts\\Swarm.cs",
               "RelativeDocumentMoniker": "Assets\\Class10th (Sound)\\Scripts\\Swarm.cs",
@@ -209,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "SoundManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class10th (Sound)\\Scripts\\SoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Class10th (Sound)\\Scripts\\SoundManager.cs",
@@ -221,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Knight.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class9th (Collision)\\Scripts\\Knight.cs",
               "RelativeDocumentMoniker": "Assets\\Class9th (Collision)\\Scripts\\Knight.cs",
@@ -233,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "CreateManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class8th (Instantiate)\\Scripts\\CreateManager.cs",
               "RelativeDocumentMoniker": "Assets\\Class8th (Instantiate)\\Scripts\\CreateManager.cs",
@@ -245,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Health.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class7th (Instantiate)\\Scripts\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Class7th (Instantiate)\\Scripts\\Health.cs",
@@ -256,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Mummy.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class7th (Instantiate)\\Scripts\\Mummy.cs",
               "RelativeDocumentMoniker": "Assets\\Class7th (Instantiate)\\Scripts\\Mummy.cs",
@@ -268,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Select.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class6th (User Interface)\\Scripts\\Select.cs",
               "RelativeDocumentMoniker": "Assets\\Class6th (User Interface)\\Scripts\\Select.cs",
@@ -280,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class6th (User Interface)\\Scripts\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Class6th (User Interface)\\Scripts\\MenuManager.cs",
@@ -292,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Mousey.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class5th (Animation)\\Scripts\\Mousey.cs",
               "RelativeDocumentMoniker": "Assets\\Class5th (Animation)\\Scripts\\Mousey.cs",
@@ -304,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Cloud.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class4th (Translate)\\Scripts\\Cloud.cs",
               "RelativeDocumentMoniker": "Assets\\Class4th (Translate)\\Scripts\\Cloud.cs",
@@ -316,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "PositionManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class4th (Translate)\\Scripts\\PositionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Class4th (Translate)\\Scripts\\PositionManager.cs",
@@ -328,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "AirCraft.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class4th (Translate)\\Scripts\\AirCraft.cs",
               "RelativeDocumentMoniker": "Assets\\Class4th (Translate)\\Scripts\\AirCraft.cs",
@@ -340,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Move.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class3th (GetComponent)\\Scripts\\Move.cs",
               "RelativeDocumentMoniker": "Assets\\Class3th (GetComponent)\\Scripts\\Move.cs",
@@ -352,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "StoneUnit.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class3th (GetComponent)\\Scripts\\StoneUnit.cs",
               "RelativeDocumentMoniker": "Assets\\Class3th (GetComponent)\\Scripts\\StoneUnit.cs",
@@ -364,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Stats.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class2th (Script)\\Scripts\\Stats.cs",
               "RelativeDocumentMoniker": "Assets\\Class2th (Script)\\Scripts\\Stats.cs",
@@ -376,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Dinosaur.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Game\\Assets\\Class2th (Script)\\Scripts\\Dinosaur.cs",
               "RelativeDocumentMoniker": "Assets\\Class2th (Script)\\Scripts\\Dinosaur.cs",

@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/Game-Engine/Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64655
+58447
 Successfully changed project path to: C:/Users/Administrator/Desktop/Game-Engine/Game
 C:/Users/Administrator/Desktop/Game-Engine/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Administrator/Desktop/Game-Engine/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24404] Host "[IP] 192.168.0.149 [Port] 0 [Flags] 2 [Guid] 1103031962 [EditorId] 1103031962 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G7R323G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16868] Host "[IP] 192.168.0.149 [Port] 0 [Flags] 2 [Guid] 2866991849 [EditorId] 2866991849 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G7R323G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24404] Host "[IP] 192.168.0.149 [Port] 0 [Flags] 2 [Guid] 1103031962 [EditorId] 1103031962 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G7R323G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16868] Host "[IP] 192.168.0.149 [Port] 0 [Flags] 2 [Guid] 2866991849 [EditorId] 2866991849 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G7R323G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 9.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013297 seconds.
-- Loaded All Assemblies, in  0.423 seconds
+Registered in 0.013471 seconds.
+- Loaded All Assemblies, in  0.414 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 266 ms
+Android Extension - Scanning For ADB Devices 241 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.599 seconds
-Domain Reload Profiling: 1020ms
-	BeginReloadAssembly (130ms)
+- Finished resetting the current domain, in  0.556 seconds
+Domain Reload Profiling: 967ms
+	BeginReloadAssembly (122ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (36ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (174ms)
-		LoadAssemblies (128ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (121ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (172ms)
-			TypeCache.Refresh (170ms)
-				TypeCache.ScanAssembly (154ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (139ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (599ms)
+	FinalizeReload (557ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (534ms)
+		SetupLoadedEditorAssemblies (492ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (377ms)
+			InitializePlatformSupportModulesInManaged (347ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (102ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 1020ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.700 seconds
-Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.795 seconds
+Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.552 seconds
-Domain Reload Profiling: 1249ms
-	BeginReloadAssembly (168ms)
+- Finished resetting the current domain, in  0.629 seconds
+Domain Reload Profiling: 1421ms
+	BeginReloadAssembly (194ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (433ms)
-		LoadAssemblies (343ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (495ms)
+		LoadAssemblies (389ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (172ms)
-				TypeCache.ScanAssembly (152ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (169ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (552ms)
+	FinalizeReload (629ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (404ms)
+		SetupLoadedEditorAssemblies (442ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
+			InitializePlatformSupportModulesInManaged (28ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (289ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3580.
-Memory consumption went from 133.6 MB to 133.6 MB.
-Total: 3.279600 ms (FindLiveObjects: 0.244800 ms CreateObjectMapping: 0.188400 ms MarkObjects: 2.679800 ms  DeleteObjects: 0.165800 ms)
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.5 KB). Loaded Objects now: 3585.
+Memory consumption went from 133.7 MB to 133.7 MB.
+Total: 3.947600 ms (FindLiveObjects: 0.359700 ms CreateObjectMapping: 0.567000 ms MarkObjects: 2.823000 ms  DeleteObjects: 0.196900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,28 +184,116 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 267554.151811 seconds.
-  path: Assets/Class11th (RayCast)
-  artifactKey: Guid(9f19d6261148bbe4db634b898ecddd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class11th (RayCast) using Guid(9f19d6261148bbe4db634b898ecddd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ec313e994e2970f18ae71263eae4c5') in 0.002593 seconds
+  Time since last request: 614082.998891 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Models/Remy.fbx
+  artifactKey: Guid(fd2f1db1025b22f42bb75a03b9029012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Models/Remy.fbx using Guid(fd2f1db1025b22f42bb75a03b9029012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e238b23c60811a659d4eaa4ddf3d41dd') in 0.461597 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 173
 ========================================================================
 Received Import Request.
-  Time since last request: 577.709765 seconds.
-  path: Assets/Class11th (RayCast)/Low Poly Bed Room Furniture PBR/Assets/Prefab/Bed_Set.prefab
-  artifactKey: Guid(eef8306c54f201a4e8cd536d25207e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class11th (RayCast)/Low Poly Bed Room Furniture PBR/Assets/Prefab/Bed_Set.prefab using Guid(eef8306c54f201a4e8cd536d25207e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29cd1c22e216e0ee99cb4ed30aa3ec7') in 0.261308 seconds
+  Time since last request: 87.097905 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Animations/Remy@Walking.fbx
+  artifactKey: Guid(269d627c65c21ec4b829064bbee8fbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Animations/Remy@Walking.fbx using Guid(269d627c65c21ec4b829064bbee8fbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b61f6a1251aaf5985aff36d8c6cc12a') in 0.005411 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
+Number of asset objects unloaded after import = 139
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Class11th (RayCast)/Low Poly Bed Room Furniture PBR/Assets/Prefab/Dressing_Table.prefab
-  artifactKey: Guid(c3f62e14475a33e4ba04f1ec6734278d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class11th (RayCast)/Low Poly Bed Room Furniture PBR/Assets/Prefab/Dressing_Table.prefab using Guid(c3f62e14475a33e4ba04f1ec6734278d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43949c589f5bf0122275ad7dd6243a77') in 0.038881 seconds
+  Time since last request: 2.513853 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Textures/Boy01_FacialAnimMap.png
+  artifactKey: Guid(29fc58739595b46419609f8f3ab81049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Textures/Boy01_FacialAnimMap.png using Guid(29fc58739595b46419609f8f3ab81049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4308a80bd633e3aeb8b711e429a0fb3') in 0.047625 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Textures/Remy_Shoes_Normal.png
+  artifactKey: Guid(bab2c563e2966224a971c01f1caa2f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Textures/Remy_Shoes_Normal.png using Guid(bab2c563e2966224a971c01f1caa2f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db764954ba165d872460b15234cb94d4') in 0.027758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Textures/Boy01_normal.jpg
+  artifactKey: Guid(bb51744d747f68e4ba7889dc55b131ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Textures/Boy01_normal.jpg using Guid(bb51744d747f68e4ba7889dc55b131ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63967163b77d175ece5824711c782c2c') in 0.030764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Textures/Remy_Top_Gloss.png
+  artifactKey: Guid(0e4be4050ceda6c4287d2c5b3a7683ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Textures/Remy_Top_Gloss.png using Guid(0e4be4050ceda6c4287d2c5b3a7683ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7f00a14309c8ba6ca7fe50676d4578') in 0.033601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Textures/Remy_Body_Specular.png
+  artifactKey: Guid(cc1e5fc2a1682af4aa2e7b26859317c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Textures/Remy_Body_Specular.png using Guid(cc1e5fc2a1682af4aa2e7b26859317c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9baa72fd8d12e357da6d8ea45481d941') in 0.031640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Textures/Remy_Bottom_Specular.png
+  artifactKey: Guid(36869347b029e6c4682f04475a680bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Textures/Remy_Bottom_Specular.png using Guid(36869347b029e6c4682f04475a680bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1257742147ed40ff3f40041881a71ea') in 0.029961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Textures/Remy_Bottom_Normal.png
+  artifactKey: Guid(ebf700af3e50b5d4cb9456aa892022d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Textures/Remy_Bottom_Normal.png using Guid(ebf700af3e50b5d4cb9456aa892022d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd3d32a37fd68d1d607e01a8b379553') in 0.020657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Textures/Remy_Hair_Gloss.png
+  artifactKey: Guid(38b767d5863bc484082a9f4c8ea6d8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Textures/Remy_Hair_Gloss.png using Guid(38b767d5863bc484082a9f4c8ea6d8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787442940dd706788adad300d4b32ecb') in 0.026804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Textures/Remy_Body_Gloss.png
+  artifactKey: Guid(99c9dd3bffc79c84d866d2d331e4abc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Textures/Remy_Body_Gloss.png using Guid(99c9dd3bffc79c84d866d2d331e4abc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816300502ef553e7286e5d0f0ac973ae') in 0.029983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Textures/Remy_Top_Normal.png
+  artifactKey: Guid(848bcf064acd0404993b85a5d4e27996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Textures/Remy_Top_Normal.png using Guid(848bcf064acd0404993b85a5d4e27996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bcdbb777f52c19e4202144db57419c') in 0.026462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Textures/Remy_Hair_Normal.png
+  artifactKey: Guid(7a34bcca62e89a046a78edaba03b0dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Textures/Remy_Hair_Normal.png using Guid(7a34bcca62e89a046a78edaba03b0dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f681e00deef5584815e1a7dbf49182') in 0.019165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class12th (Animation Retargeting)/Textures/Remy_Top_Diffuse.png
+  artifactKey: Guid(50cb5fe91cbcaf641a7b7bd78ff34bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class12th (Animation Retargeting)/Textures/Remy_Top_Diffuse.png using Guid(50cb5fe91cbcaf641a7b7bd78ff34bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25977d3b83a9c3ad4475d50e91368529') in 0.020471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server
