@@ -13,6 +13,8 @@ public class Runner : MonoBehaviour
 {
     [SerializeField] RoadLine roadLine;
     [SerializeField] Rigidbody rigidBody;
+
+    [SerializeField] float speed = 25.0f;
     [SerializeField] float positionX = 2.0f;
 
     private void Awake()
@@ -56,6 +58,11 @@ public class Runner : MonoBehaviour
 
     void Move()
     {
-        rigidBody.position = new Vector3(positionX * (int)roadLine, 0, 0);
+        rigidBody.position = Vector3.Lerp
+        (
+             rigidBody.position,
+             new Vector3(positionX * (int)roadLine, 0, 0),
+             speed * Time.fixedDeltaTime
+        );
     }
 }
