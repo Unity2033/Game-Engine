@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\assets\\scripts\\runner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\assets\\scripts\\interactzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\assets\\scripts\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\run game\\assets\\scripts\\interfacemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interfacemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\run game\\assets\\scripts\\runner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\runner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\run game\\assets\\scripts\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\assets\\scripts\\roadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\assets\\scripts\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\assets\\scripts\\scenerymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenerymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\run game\\assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAD3E9C9-702A-CDA6-70D1-4D902B2CA28E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +42,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "InterfaceManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\Assets\\Scripts\\InterfaceManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InterfaceManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\Assets\\Scripts\\InterfaceManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InterfaceManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:07:06.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Road.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\Assets\\Scripts\\Road.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Road.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\Assets\\Scripts\\Road.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Road.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:45:51.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InteractZone.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\Assets\\Scripts\\InteractZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractZone.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\Assets\\Scripts\\InteractZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InteractZone.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:41:07.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoadManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\Assets\\Scripts\\RoadManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RoadManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\Assets\\Scripts\\RoadManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RoadManager.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwC4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T04:08:29.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Singleton.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\Assets\\Scripts\\Singleton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Singleton.cs",
@@ -38,12 +105,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Singleton.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAwAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T05:25:20.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T05:25:20.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "InputManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\Assets\\Scripts\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputManager.cs",
@@ -56,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "SceneryManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\Assets\\Scripts\\SceneryManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneryManager.cs",
@@ -64,18 +130,17 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneryManager.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T04:30:13.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T04:30:13.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Runner.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\Assets\\Scripts\\Runner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Runner.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Run Game\\Assets\\Scripts\\Runner.cs",
               "RelativeToolTip": "Assets\\Scripts\\Runner.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAswBAAAAApAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T05:24:44.704Z",
               "EditorCaption": ""
