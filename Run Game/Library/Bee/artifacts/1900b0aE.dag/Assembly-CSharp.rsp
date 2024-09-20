@@ -362,6 +362,7 @@
 "Assets/Scripts/Managers/CoinManager.cs"
 "Assets/Scripts/Managers/InputManager.cs"
 "Assets/Scripts/Managers/InterfaceManager.cs"
+"Assets/Scripts/Managers/MenuManager.cs"
 "Assets/Scripts/Managers/RoadManager.cs"
 "Assets/Scripts/Managers/SceneryManager.cs"
 "Assets/Scripts/Managers/Singleton.cs"
