@@ -66,6 +66,16 @@ public class Runner : MonoBehaviour
         );
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        IColliderable colliderable = other.GetComponent<IColliderable>();
+
+        if(colliderable != null)
+        {
+            colliderable.Activate();
+        }
+    }
+
     private void OnDisable()
     {
         InputManager.Instance.action -= OnKeyUpdate;

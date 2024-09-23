@@ -369,6 +369,7 @@
 "Assets/Scripts/Road.cs"
 "Assets/Scripts/RotationObject.cs"
 "Assets/Scripts/Runner.cs"
+"Assets/Scripts/SelectButton.cs"
 -langversion:9.0
 
 /deterministic
