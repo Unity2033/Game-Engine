@@ -1218,7 +1218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   createCount: 4
-  speed: 5
+  speed: 30
   offset: 40
   roads: []
 --- !u!4 &1878068954
