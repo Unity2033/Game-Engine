@@ -65,10 +65,12 @@
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ResourcesManager.cs" />
     <Compile Include="Assets\Scripts\Managers\InterfaceManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\ObstacleManager.cs" />
     <Compile Include="Assets\Scripts\Runner.cs" />
     <Compile Include="Assets\Scripts\RotationObject.cs" />
     <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
     <Compile Include="Assets\Scripts\Managers\CoinManager.cs" />
+    <Compile Include="Assets\Scripts\State.cs" />
     <Compile Include="Assets\Scripts\Managers\MenuManager.cs" />
     <Compile Include="Assets\Scripts\SelectButton.cs" />
     <Compile Include="Assets\Scripts\Road.cs" />

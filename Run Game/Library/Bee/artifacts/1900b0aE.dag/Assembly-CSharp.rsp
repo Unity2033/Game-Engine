@@ -366,6 +366,7 @@
 "Assets/Scripts/Managers/InputManager.cs"
 "Assets/Scripts/Managers/InterfaceManager.cs"
 "Assets/Scripts/Managers/MenuManager.cs"
+"Assets/Scripts/Managers/ObstacleManager.cs"
 "Assets/Scripts/Managers/ResourcesManager.cs"
 "Assets/Scripts/Managers/RoadManager.cs"
 "Assets/Scripts/Managers/SceneryManager.cs"
@@ -375,6 +376,7 @@
 "Assets/Scripts/RotationObject.cs"
 "Assets/Scripts/Runner.cs"
 "Assets/Scripts/SelectButton.cs"
+"Assets/Scripts/State.cs"
 -langversion:9.0
 
 /deterministic
