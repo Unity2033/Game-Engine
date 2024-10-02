@@ -63,9 +63,11 @@
     <Compile Include="Assets\Scripts\Coin.cs" />
     <Compile Include="Assets\Scripts\Managers\SpeedManager.cs" />
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\MouseManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ResourcesManager.cs" />
     <Compile Include="Assets\Scripts\Managers\InterfaceManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ObstacleManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\ObstaclePositionManager.cs" />
     <Compile Include="Assets\Scripts\Runner.cs" />
     <Compile Include="Assets\Scripts\RotationObject.cs" />
     <Compile Include="Assets\Scripts\Managers\InputManager.cs" />

@@ -24,7 +24,7 @@ public class CoinManager : MonoBehaviour
         for(int i = 0; i < createCount; i++)
         {
             GameObject clone = ResourcesManager.Instance.Instantiate("Coin", gameObject.transform);
-
+                                                  
             clone.transform.localPosition = new Vector3(0, 0, offset * i);
 
             clone.GetComponent<BoxCollider>().enabled = false;
