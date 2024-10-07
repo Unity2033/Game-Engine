@@ -45,8 +45,7 @@ public class ObstacleManager : MonoBehaviour
     }
 
     public IEnumerator ActiveObstacle()
-    {
-        
+    {   
         while(true)
         {
             yield return CoroutineCache.WaitForSecond(2.5f);
@@ -72,10 +71,11 @@ public class ObstacleManager : MonoBehaviour
                 // random 변수의 값을 +1을 해서 다시 검색합니다.
                 random = (random + 1) % obstacles.Count;
             }
-
-            // 랜덤으로 설정된 Obstacle 오브젝트를 활성화합니다.
-            obstacles[random].SetActive(true);
         }
     }
 
+    public GameObject GetObstacle()
+    {
+        return obstacles[random];
+    }
 }

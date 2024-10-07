@@ -845,11 +845,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: -1
+  positionX:
+  - {fileID: 488130225}
+  - {fileID: 1989670345}
+  - {fileID: 757522083}
   parentRoad:
   - {fileID: 1076866731}
   - {fileID: 778279606}
   - {fileID: 2051935456}
   - {fileID: 2080760848}
+  obstacleManager: {fileID: 2105035158}
   randomPositionZ:
   - 0
   - 0
@@ -5292,8 +5297,8 @@ SceneRoots:
   - {fileID: 468801633098699287}
   - {fileID: 427544944}
   - {fileID: 332996415}
-  - {fileID: 715425259}
   - {fileID: 1878068954}
+  - {fileID: 715425259}
   - {fileID: 2052909008}
   - {fileID: 2069691162}
   - {fileID: 1523803350}
