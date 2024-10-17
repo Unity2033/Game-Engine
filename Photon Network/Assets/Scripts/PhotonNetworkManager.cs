@@ -25,7 +25,7 @@ public class PhotonNetworkManager : MonoBehaviourPunCallbacks
 
     public void Failure(PlayFabError playFabError)
     {
-        Debug.Log(playFabError.GenerateErrorReport());
+        PopUpManager.Instance.Show(AlarmType.SIGNINFAILURE, playFabError.GenerateErrorReport());
     }
 
     public void OnSignUp()
