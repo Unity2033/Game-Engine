@@ -388,14 +388,17 @@
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/Character.cs"
 "Assets/Scripts/CharacterSpawnerManager.cs"
+"Assets/Scripts/Head.cs"
 "Assets/Scripts/Information.cs"
 "Assets/Scripts/LobbyManager.cs"
+"Assets/Scripts/MouseManager.cs"
 "Assets/Scripts/Move.cs"
 "Assets/Scripts/PhotonNetworkManager.cs"
 "Assets/Scripts/PopUp.cs"
 "Assets/Scripts/PopUpManager.cs"
 "Assets/Scripts/RoomManager.cs"
 "Assets/Scripts/Rotation.cs"
+"Assets/Scripts/UnitSpawnerManager.cs"
 -langversion:9.0
 
 /deterministic
