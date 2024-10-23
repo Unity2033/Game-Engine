@@ -64,12 +64,14 @@
     <Compile Include="Assets\Scripts\PhotonNetworkManager.cs" />
     <Compile Include="Assets\Scripts\CharacterSpawnerManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
+    <Compile Include="Assets\Scripts\View.cs" />
     <Compile Include="Assets\Scripts\PopUpManager.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\UnitSpawnerManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\Scripts\PopUp.cs" />
+    <Compile Include="Assets\Scripts\NickName.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets\Scripts\RoomManager.cs" />
