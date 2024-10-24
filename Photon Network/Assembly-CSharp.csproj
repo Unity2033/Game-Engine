@@ -61,32 +61,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
-    <Compile Include="Assets\Scripts\PhotonNetworkManager.cs" />
-    <Compile Include="Assets\Scripts\CharacterSpawnerManager.cs" />
+    <Compile Include="Assets\Scripts\Characters\Move.cs" />
+    <Compile Include="Assets\Scripts\Managers\MouseManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
-    <Compile Include="Assets\Scripts\View.cs" />
     <Compile Include="Assets\Scripts\PopUpManager.cs" />
-    <Compile Include="Assets\Scripts\Character.cs" />
-    <Compile Include="Assets\Scripts\UnitSpawnerManager.cs" />
+    <Compile Include="Assets\Scripts\Characters\Head.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\Scripts\PopUp.cs" />
     <Compile Include="Assets\Scripts\NickName.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
-    <Compile Include="Assets\Scripts\RoomManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\UnitSpawnerManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\LobbyManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\PhotonNetworkManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
+    <Compile Include="Assets\Scripts\Characters\Character.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
-    <Compile Include="Assets\Scripts\Rotation.cs" />
-    <Compile Include="Assets\Scripts\MouseManager.cs" />
-    <Compile Include="Assets\Scripts\Move.cs" />
-    <Compile Include="Assets\Scripts\LobbyManager.cs" />
+    <Compile Include="Assets\Scripts\Characters\View.cs" />
+    <Compile Include="Assets\Scripts\Managers\DialogManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\RoomManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
+    <Compile Include="Assets\Scripts\Managers\CharacterSpawnerManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\Scripts\Information.cs" />
+    <Compile Include="Assets\Scripts\Characters\Rotation.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
-    <Compile Include="Assets\Scripts\Head.cs" />
+    <Compile Include="Assets\Scripts\Pause.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />

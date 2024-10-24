@@ -22,9 +22,20 @@ public class UnitSpawnerManager : MonoBehaviourPunCallbacks
     {
         while(true)
         {
-            PhotonNetwork.InstantiateRoomObject("Rake", spawnerPosition.position, Quaternion.identity);
+            PhotonNetwork.InstantiateRoomObject("Unit", spawnerPosition.position, Quaternion.identity);
 
             yield return waitForSeconds;
         }
-    }  
+    }
+
+    public override void OnMasterClientSwitched(Player newMasterClient)
+    {
+        PhotonNetwork.SetMasterClient(PhotonNetwork.PlayerList[0]);
+
+        if (PhotonNetwork.IsMasterClient)
+        {
+            StartCoroutine(Create());
+        }
+    }
+
 }
