@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\photon network\\assets\\scripts\\managers\\dialogmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\assets\\scripts\\managers\\dialogmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\dialogmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\photon network\\assets\\scripts\\characters\\head.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characters\\head.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\assets\\scripts\\characters\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characters\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\photon network\\assets\\scripts\\rifle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rifle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\photon network\\assets\\scripts\\rake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\assets\\scripts\\nickname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nickname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\photon network\\assets\\scripts\\characters\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\assets\\scripts\\characters\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characters\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\photon network\\assets\\scripts\\managers\\mousemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\assets\\scripts\\managers\\mousemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\mousemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\assets\\scripts\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\assets\\scripts\\characters\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{649C5400-57DC-9F06-8CA3-64E71F190BAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characters\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\MouseManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,11 +106,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Head.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Characters\\Head.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Characters\\Head.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Characters\\Head.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Characters\\Head.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:23:38.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rifle.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Rifle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Rifle.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Rifle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Rifle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T06:05:14.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rake.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Rake.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Rake.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Rake.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Rake.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAUwDUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T04:37:35.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "View.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Characters\\View.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Characters\\View.cs",
@@ -106,8 +157,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Characters\\View.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAADwvwsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T06:15:12.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T06:15:12.869Z"
             },
             {
               "$type": "Document",
@@ -117,14 +167,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\DialogManager.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Managers\\DialogManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\DialogManager.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAuwAwAAAARAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowBsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T06:07:14.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "MouseManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Managers\\MouseManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\MouseManager.cs",
@@ -132,24 +182,24 @@
               "RelativeToolTip": "Assets\\Scripts\\Managers\\MouseManager.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAAcwDUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:30:41.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T05:30:41.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Characters\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Characters\\Character.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Characters\\Character.cs",
               "RelativeToolTip": "Assets\\Scripts\\Characters\\Character.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAzwCIAAAAAAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAIwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:27:34.228Z"
+              "WhenOpened": "2024-10-24T05:27:34.228Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Pause.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Pause.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pause.cs",
@@ -161,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "View.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\View.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\View.cs",
@@ -173,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "NickName.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\NickName.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NickName.cs",
@@ -181,12 +231,11 @@
               "RelativeToolTip": "Assets\\Scripts\\NickName.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAABkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T05:08:27.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T05:08:27.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "UnitSpawnerManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\UnitSpawnerManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnitSpawnerManager.cs",
@@ -198,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "MouseManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\MouseManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MouseManager.cs",
@@ -209,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Move.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Move.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Move.cs",
@@ -221,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character.cs",
@@ -233,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "CharacterSpawnerManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\CharacterSpawnerManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterSpawnerManager.cs",
@@ -245,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Information.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Information.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Information.cs",
@@ -257,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "RoomManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\RoomManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RoomManager.cs",
@@ -269,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "LobbyManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\LobbyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LobbyManager.cs",
@@ -281,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "PhotonNetwork.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetwork.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetwork.cs",
@@ -293,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Rotation.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Rotation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rotation.cs",
@@ -305,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Head.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\Head.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Head.cs",
@@ -317,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "PopUp.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\PopUp.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PopUp.cs",
@@ -329,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "PopUpManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\PopUpManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PopUpManager.cs",
@@ -341,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "PhotonNetworkManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Photon Network\\Assets\\Scripts\\PhotonNetworkManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PhotonNetworkManager.cs",
