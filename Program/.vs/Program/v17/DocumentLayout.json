@@ -1,10 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B64F0DE-309E-4D0B-9EC9-6353B6E6ABC2}|Program.csproj|c:\\users\\administrator\\desktop\\program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B64F0DE-309E-4D0B-9EC9-6353B6E6ABC2}|Program.csproj|c:\\users\\administrator\\desktop\\game-engine\\program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B64F0DE-309E-4D0B-9EC9-6353B6E6ABC2}|Program.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BD443C-E7E7-4FD2-A7E5-C5AA072B7BB0}|..\\Class1th (Variable)\\Class1th (Variable).csproj|c:\\users\\administrator\\desktop\\game-engine\\class1th (variable)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +17,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class1th (Variable)\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Class1th (Variable)\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class1th (Variable)\\Program.cs",
+              "RelativeToolTip": "..\\Class1th (Variable)\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwDEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:15:45.749Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAADwvyUAAAAiAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAuwHMAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T05:24:18.735Z",
               "EditorCaption": ""

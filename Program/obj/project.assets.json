@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Program\\Program.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Program.csproj",
       "projectName": "Program",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Program\\Program.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Program.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\Program\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

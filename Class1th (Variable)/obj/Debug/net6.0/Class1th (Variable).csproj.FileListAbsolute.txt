@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\bin\Debug\net6.0\Class1th (Variable).exe
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\bin\Debug\net6.0\Class1th (Variable).deps.json
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\bin\Debug\net6.0\Class1th (Variable).runtimeconfig.json
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\bin\Debug\net6.0\Class1th (Variable).dll
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\bin\Debug\net6.0\Class1th (Variable).pdb
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\obj\Debug\net6.0\Class1th (Variable).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\obj\Debug\net6.0\Class1th (Variable).AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\obj\Debug\net6.0\Class1th (Variable).AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\obj\Debug\net6.0\Class1th (Variable).csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\obj\Debug\net6.0\Class1th (Variable).sourcelink.json
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\obj\Debug\net6.0\Class1th (Variable).dll
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\obj\Debug\net6.0\refint\Class1th (Variable).dll
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\obj\Debug\net6.0\Class1th (Variable).pdb
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\obj\Debug\net6.0\Class1th (Variable).genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Game-Engine\Class1th (Variable)\obj\Debug\net6.0\ref\Class1th (Variable).dll
