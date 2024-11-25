@@ -1,147 +1,159 @@
-﻿namespace Program
+﻿using System.Runtime.InteropServices;
+
+namespace Program
 {
+    class GameObject
+    {
+        #region 접근 지정자
+        // 클래스 내부의 포함되어 있는 속성에 접근 범위를
+        // 제한하는 지정자입니다.
+
+        // public    : 클래스에 있는 데이터를 클래스 외부에서도 
+        //             접근을 허용하는 지정자입니다.
+
+        // protected : 클래스에 있는 데이터를 클래스 내부와 자기가
+        //             상속하고 있는 클래스에게만 접근을 허용하는 지정자입니다.
+
+        // private   : 클래스에 있는 데이터를 클래스 내부에서만 접근
+        //             을 허용하는 지정자입니다.
+        #endregion
+
+        // 접근 지정자를 설정하지 않으면 private로 설정됩니다.
+        private int x;
+        private int y;
+        private int z;
+
+        public void Position(int x, int y, int z)
+        {
+            // this Pointer
+            // 자기 자신을 가리키는 포인터입니다.
+            this.x = x;
+            this.y = y;
+            this.z = z;
+        }
+
+        public void Information()
+        {
+            Console.WriteLine("x의 값 : " + x);
+            Console.WriteLine("y의 값 : " + y);
+            Console.WriteLine("z의 값 : " + z);
+
+            Console.WriteLine();
+        }
+    }
+
+    class Vitamin
+    {
+        private float  b6;
+        private float  c;
+        private double d;
+    }
+
+    class Item
+    {
+        public int price;
+
+        public Item()
+        {
+            price = 1000;
+
+            Console.WriteLine("Create Item");
+        }
+    }
+
+    class Unit
+    {
+        public int health;
+        public int attack;
+
+        public Unit()
+        {
+            Console.WriteLine("생성자");
+        }
+
+        public Unit(Unit clone)
+        {
+            Console.WriteLine("복사 생성자");
+        }
+
+    }
+
     internal class Program
     {
-        static int score = 0;
-
-        static void PositionX()
-        {
-            int x = 5;
-
-            Console.WriteLine("x의 값 : " + x);
-        }
-
-        static void Increase()
-        {
-            score++;
-
-            Console.WriteLine("score의 값 : " + score);
-        }
-
         static void Main(string[] args)
         {
-            #region 메모리
+            #region 클래스
+            // 사용자 정의 데이터 유형으로 속성과 함수가
+            // 포함되어 있으며, 클래스를 통해 객체를 생성하여
+            // 접근하고 사용할 수 있는 집합체입니다.
 
-            #region 코드 영역
-            // 실행할 프로그램의 코드가 저장되는 영역이며, 프로그램이
-            // 시작하고 종료될 때 까지 메모리에 계속 남아있는 특징을 가지고 있습니다.
-            #endregion
-
-            #region 데이터 영역
-            // 프로그램의 정적 변수가 저장되는 영역이며, 프로그램이 실행될 때 메모리에
-            // 올라가고, 프로그램이 종료되면 메모리에서 해제되는 특징을 가지고 있습니다.
-            #endregion
-
-            #region 스택 영역
-            // 프로그램의 지역 변수와 매개 변수가 저장되는 영역이며, { }를 벗어나게 되면
-            // 메모리에서 해제되는 특징을 가지고 있습니다.
-            #endregion
-
-            #region 관리되는 힙 영역
-            // 프로그램에서 사용자가 직접 생성한 메모리가 저장되는 영역이며, 가비지 컬렉터에
-            // 의해 메모리가 해제되는 특징을 가지고 있습니다.
-            #endregion
-
-            #endregion
-
-            #region 지역 변수
-            // 함수 내부에서 선언된 변수로 함수 내부에서만 접근을 허용하며,
-            // 함수를 벗어나게 되면 메모리가 해제되는 변수입니다.
-
-            // int x = 10;
-
-            // PositionX();
-
-            // Console.WriteLine("Main() 함수에 있는 x 의 값 : " + x);
-
-            #endregion
-
-            #region 정적 변수
-            // 함수 내부에서 선언된 변수이지만, 단 한번만 초기화가 이루어지며
-            // 프로그램이 실행될 때 메모리에 올라가게 되고 프로그램이 종료되어
-            // 야만 메모리가 해제되는 변수입니다.
-
-            // Increase();
-            // Increase();
-            // Increase();
-
-            #endregion
-
-            #region 배열
-            // 같은 자료형의 변수들로 이루어진 유한 집합입니다.
-
-            // int [ ] container = new int[5];
+            // GameObject gameObject1 = new GameObject();
+            // GameObject gameObject2 = new GameObject();
+            // GameObject gameObject3 = new GameObject();
             // 
-            // for(int i = 0; i < container.Length; i++)
-            // {
-            //     container[i] = (i + 1) * 10;
+            // gameObject1.Position(5, 5, 5);
+            // gameObject2.Position(2, 2, 2);
+            // gameObject3.Position(1, 1, 1);
             // 
-            //     Console.WriteLine("Previous container[" + i + "]의 값 : " + container[i]);
-            // }
+            // gameObject1.Information();
+            // gameObject2.Information();
+            // gameObject3.Information();
 
-            // 배열의 경우 첫 번째 원소는 0부터 시작합니다.
-
-            // container = new int[6];
-            // 
-            // for (int i = 0; i < container.Length; i++)
-            // {
-            //     container[i] = (i + 1) * 1;
-            // 
-            //     Console.WriteLine("New container[" + i + "]의 값 : " + container[i]);
-            // }
-
-            // 배열은 연속적인 메모리 공간을 가지며, 배열의 이름은
-            // 배열의 시작 주소를 의미합니다.
+            // 클래스의 경우 클래스 내부에 있는 변수는 클래스 메모리
+            // 영역에 포함되지만, 정적 변수와 함수의 메모리는 클래스 
+            // 영역에 포함되지 않습니다.
             #endregion
 
-            #region 박싱
-            // 값 형식 데이터를 참조 형식으로 변환하는 과정입니다.
+            #region 바이트 패딩
+            // 멤버 변수를 메모리에서 CPU로 읽을 때 한 번에
+            // 읽을 수 있도록, 컴파일러가 레지스터의 블록에 맞추어
+            // 바이트를 패딩해주는 최적화 작업입니다.
 
-            // int code = 10;
-            // 
-            // object data = code;
-            // 
-            // Console.WriteLine("data 변수의 값 : " + data);
+            // Vitamin vitamin = new Vitamin();
 
+            // 클래스의 크기는 클래스를 구성하는 멤버 중에 크기가
+            // 가장 큰 자료형의 배수가 되도록 정렬합니다.
             #endregion
 
-            #region 언박싱
-            // 참조 형식의 데이터를 값 형식으로 변환하는 과정입니다.
+            #region 생성자
+            // 클래스의 인스턴스가 생성되는 시점에서 자동으로
+            // 호출되는 특수한 멤버 함수입니다.
 
-            // char alphabet = 'A';
-            // 
-            // object pointer = alphabet;
-            // 
-            // alphabet = (char)pointer;
+            // Item item = new Item(); 
 
+            // 생성자의 경우 객체가 생성될 때 단 한 번만 호출되며,
+            // 생성자는 반환형이 존재하지 않기 때문에 생성자가 호출되기
+            // 전에는 객체에 대한 메모리는 할당하지 않습니다.
             #endregion
 
-            #region 아스키 코드
-            // 미국 국립 표준 협회에서 표준화한 정보 교환용
-            // 7 bit 부호 체계입니다.
+            #region 얕은 복사
+            // 객체를 복사할 때 주소 값을 복사하여 같은 메모리를
+            // 가리키게 하는 복사입니다.
 
-            // char character = (char)97;
+            // Item item1 = new Item();
+            // 
+            // Item item2 = item1;
+            // 
+            // item2.price = 999;
+            // 
+            // Console.WriteLine("item1의 price 값 : " + item1.price);
+            // Console.WriteLine("item2의 price 값 : " + item2.price);
 
-            // Console.WriteLine("character 변수의 값 : " + character);
+
+            // 얕은 복사의 경우 같은 객체가 서로 같은 메모리 공간을
+            // 참조하고 있기 때문에 하나의 객체로 값을 변경하게 되면
+            // 서로 참조된 객체도 함께 영향을 받습니다.
             #endregion
 
-            #region 문자열
-            // 연속적인 메모리 공간에 저장된 문자 변수의 집합입니다.
+            #region 복사 생성자
+            // 같은 객체를 복사하여 생성시킬 때 호출되는
+            // 생성자입니다.
 
-            string name = "Alistar";
 
-            Console.WriteLine("name 변수의 값 : " + name);
 
-            // 문자열은 공백도 함께 메모리 공간에 포함하여 크기가
-            // 결정되며, 마지막에 문자열의 끝을 알려주는 제어 문자가
-            // 추가됩니다.
-
-            name = "Janna";
-
-            Console.WriteLine("name 변수의 값 : " + name);
-
-            // 문자열의 경우 서로 연속적인 메모리 공간으로 연결
-            // 되어 있습니다.
+            // 복사 생성자를 정의하지 않고, 객체를 복사하게 되면
+            // 기본 복사 생성자가 호출되기 때문에 얕은 복사로
+            // 객체가 복사됩니다.
             #endregion
 
         }
