@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Class3th (Overflow & Underflow)")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Class8th (Class)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb204effb42b06a5d9e5ef950e9e46cd665af9f7")]
-[assembly: System.Reflection.AssemblyProductAttribute("Class3th (Overflow & Underflow)")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Class3th (Overflow & Underflow)")]
+[assembly: System.Reflection.AssemblyProductAttribute("Class8th (Class)")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Class8th (Class)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.

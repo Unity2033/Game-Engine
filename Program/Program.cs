@@ -1,159 +1,111 @@
-﻿using System.Runtime.InteropServices;
-
-namespace Program
+﻿namespace Program
 {
-    class GameObject
+    class Terran
     {
-        #region 접근 지정자
-        // 클래스 내부의 포함되어 있는 속성에 접근 범위를
-        // 제한하는 지정자입니다.
-
-        // public    : 클래스에 있는 데이터를 클래스 외부에서도 
-        //             접근을 허용하는 지정자입니다.
-
-        // protected : 클래스에 있는 데이터를 클래스 내부와 자기가
-        //             상속하고 있는 클래스에게만 접근을 허용하는 지정자입니다.
-
-        // private   : 클래스에 있는 데이터를 클래스 내부에서만 접근
-        //             을 허용하는 지정자입니다.
-        #endregion
-
-        // 접근 지정자를 설정하지 않으면 private로 설정됩니다.
-        private int x;
-        private int y;
-        private int z;
-
-        public void Position(int x, int y, int z)
+        protected int health;
+        protected int attack;
+    
+        public Terran()
         {
-            // this Pointer
-            // 자기 자신을 가리키는 포인터입니다.
-            this.x = x;
-            this.y = y;
-            this.z = z;
-        }
-
-        public void Information()
-        {
-            Console.WriteLine("x의 값 : " + x);
-            Console.WriteLine("y의 값 : " + y);
-            Console.WriteLine("z의 값 : " + z);
-
-            Console.WriteLine();
+            Console.WriteLine("Created Terran");
         }
     }
 
-    class Vitamin
+    class Marine : Terran
     {
-        private float  b6;
-        private float  c;
-        private double d;
-    }
+        private int defense;
 
-    class Item
-    {
-        public int price;
-
-        public Item()
+        public Marine() 
         {
-            price = 1000;
+            health = 40;
+            attack = 6;
+            defense = 0;
 
-            Console.WriteLine("Create Item");
-        }
-    }
-
-    class Unit
-    {
-        public int health;
-        public int attack;
-
-        public Unit()
-        {
-            Console.WriteLine("생성자");
+            Console.WriteLine("Created Marine");
         }
 
-        public Unit(Unit clone)
+        public void Stats()
         {
-            Console.WriteLine("복사 생성자");
+            Console.WriteLine("health : " + health);
+            Console.WriteLine("attack : " + attack);
+            Console.WriteLine("defense : " + defense);
         }
-
     }
 
     internal class Program
     {
+        static float Add(float x, float y)
+        {
+            return x + y;
+        }
+
+        static float Subtraction(float x, float y)
+        {
+            return x - y;
+        }
+
+        static float Multiply(float x, float y)
+        {
+            return x * y;
+        }
+
+        static float Divide(float x, float y)
+        {
+            return x / y;
+        }
+
+        delegate float Calculator(float x, float y);
+
         static void Main(string[] args)
         {
-            #region 클래스
-            // 사용자 정의 데이터 유형으로 속성과 함수가
-            // 포함되어 있으며, 클래스를 통해 객체를 생성하여
-            // 접근하고 사용할 수 있는 집합체입니다.
+            #region 상속
+            // 상위 클래스의 속성을 하위 클래스가 사용할 수 있도록
+            // 설정해주는 기능입니다.
 
-            // GameObject gameObject1 = new GameObject();
-            // GameObject gameObject2 = new GameObject();
-            // GameObject gameObject3 = new GameObject();
+            // Marine marine = new Marine();
             // 
-            // gameObject1.Position(5, 5, 5);
-            // gameObject2.Position(2, 2, 2);
-            // gameObject3.Position(1, 1, 1);
-            // 
-            // gameObject1.Information();
-            // gameObject2.Information();
-            // gameObject3.Information();
+            // marine.Stats();
 
-            // 클래스의 경우 클래스 내부에 있는 변수는 클래스 메모리
-            // 영역에 포함되지만, 정적 변수와 함수의 메모리는 클래스 
-            // 영역에 포함되지 않습니다.
+            // 클래스의 상속 관계에서는 상위 클래스는 하위 클래스의
+            // 속성을 사용할 수 없으며, 하위 클래스는 상위 클래스의
+            // 메모리를 포함한 상태로 메모리의 크기가 결정됩니다.
             #endregion
 
-            #region 바이트 패딩
-            // 멤버 변수를 메모리에서 CPU로 읽을 때 한 번에
-            // 읽을 수 있도록, 컴파일러가 레지스터의 블록에 맞추어
-            // 바이트를 패딩해주는 최적화 작업입니다.
+            #region 가비지 컬렉터
+            // 메모리 관리를 담당하는 시스템이며, 메모리에서 더 이상 사용되지
+            // 객체를 탐색하여 메모리를 회수하는 기법입니다.
 
-            // Vitamin vitamin = new Vitamin();
+            // Mark : Root Space로 부터 그래프 순회를 통해 연결된 객체들을
+            //        찾아 각각 어떤 객체를 참조하고 있는 지 찾아냅니다.
 
-            // 클래스의 크기는 클래스를 구성하는 멤버 중에 크기가
-            // 가장 큰 자료형의 배수가 되도록 정렬합니다.
+            // Sweep : 참조하고 있지 않은 객체를 Unreachable 객체들을 Managed 
+            //         Heap에서 제거합니다.
+
+            // Compact : Sweep 이후에 분산된 객체들을 Managed Heap의 시작 주소로
+            //           모아 메모리가 할당된 부분과 그렇지 않은 부분으로 압축합니다.
             #endregion
 
-            #region 생성자
-            // 클래스의 인스턴스가 생성되는 시점에서 자동으로
-            // 호출되는 특수한 멤버 함수입니다.
+            #region 대리자
+            // 함수에 대한 참조 함수의 주소 값을 가지고 있어서 함수를
+            // 대신 호출할 수 있는 기능입니다.
 
-            // Item item = new Item(); 
-
-            // 생성자의 경우 객체가 생성될 때 단 한 번만 호출되며,
-            // 생성자는 반환형이 존재하지 않기 때문에 생성자가 호출되기
-            // 전에는 객체에 대한 메모리는 할당하지 않습니다.
-            #endregion
-
-            #region 얕은 복사
-            // 객체를 복사할 때 주소 값을 복사하여 같은 메모리를
-            // 가리키게 하는 복사입니다.
-
-            // Item item1 = new Item();
+            // Calculator calculator;
             // 
-            // Item item2 = item1;
+            // calculator = Add;
             // 
-            // item2.price = 999;
+            // Console.WriteLine("Add : " + calculator(1.57f, 10.0f));
             // 
-            // Console.WriteLine("item1의 price 값 : " + item1.price);
-            // Console.WriteLine("item2의 price 값 : " + item2.price);
-
-
-            // 얕은 복사의 경우 같은 객체가 서로 같은 메모리 공간을
-            // 참조하고 있기 때문에 하나의 객체로 값을 변경하게 되면
-            // 서로 참조된 객체도 함께 영향을 받습니다.
-            #endregion
-
-            #region 복사 생성자
-            // 같은 객체를 복사하여 생성시킬 때 호출되는
-            // 생성자입니다.
-
-
-
-            // 복사 생성자를 정의하지 않고, 객체를 복사하게 되면
-            // 기본 복사 생성자가 호출되기 때문에 얕은 복사로
-            // 객체가 복사됩니다.
+            // calculator = Subtraction;
+            // 
+            // Console.WriteLine("Subtraction : " + calculator(12.5f, 5.75f));
+            // 
+            // calculator = Multiply;
+            // 
+            // Console.WriteLine("Multiply : " + calculator(2.5f, 3.25f));
+            // 
+            // calculator = Divide;
+            // 
+            // Console.WriteLine("Divide : " + calculator(10.25f, 1.25f));
             #endregion
 
         }

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "uvMsEqLMgs1D8rFuzu4uTbwPaevm9KRMGyyqBk+iqQgXd73IMgHyXgVki2F93qY0jAHWX/NrQo/cMRyzpxMz+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class8th (Class)\\Class8th (Class).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
