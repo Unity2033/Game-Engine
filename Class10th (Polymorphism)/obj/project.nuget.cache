@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "F5fCKOvlF9Ycpsn9/hUgEC5MC12rYlDFVeGr+30OxvxU/g9fsRxQhSE3Nl5T0M3e712HZI38Qwwdo+Ig6KIKcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class10th (Polymorphism)\\Class10th (Polymorphism).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
