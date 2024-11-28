@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class7th (Arrangement)", ".
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class8th (Class)", "..\Class8th (Class)\Class8th (Class).csproj", "{5BCAAF00-3859-4BFF-95DA-2882ED5A3AB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class9th (Inheritance)", "..\Class9th (Inheritance)\Class9th (Inheritance).csproj", "{40344566-7A40-4BAE-93A4-0A65CF8DA445}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class9th (Inheritance)", "..\Class9th (Inheritance)\Class9th (Inheritance).csproj", "{40344566-7A40-4BAE-93A4-0A65CF8DA445}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class10th (Polymorphism)", "..\Class10th (Polymorphism)\Class10th (Polymorphism).csproj", "{48B60A7F-6768-44B7-B33D-DBE1CA3665AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class10th (Polymorphism)", "..\Class10th (Polymorphism)\Class10th (Polymorphism).csproj", "{48B60A7F-6768-44B7-B33D-DBE1CA3665AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class11th (Abstract)", "..\Class11th (Abstract)\Class11th (Abstract).csproj", "{56F1CCC0-EC18-423B-A2A3-82F09D754961}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{48B60A7F-6768-44B7-B33D-DBE1CA3665AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48B60A7F-6768-44B7-B33D-DBE1CA3665AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48B60A7F-6768-44B7-B33D-DBE1CA3665AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F1CCC0-EC18-423B-A2A3-82F09D754961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F1CCC0-EC18-423B-A2A3-82F09D754961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F1CCC0-EC18-423B-A2A3-82F09D754961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F1CCC0-EC18-423B-A2A3-82F09D754961}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

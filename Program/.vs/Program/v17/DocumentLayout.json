@@ -3,8 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{56F1CCC0-EC18-423B-A2A3-82F09D754961}|..\\Class11th (Abstract)\\Class11th (Abstract).csproj|c:\\users\\administrator\\desktop\\game-engine\\class11th (abstract)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F1CCC0-EC18-423B-A2A3-82F09D754961}|..\\Class11th (Abstract)\\Class11th (Abstract).csproj|c:\\users\\administrator\\desktop\\game-engine\\class11th (abstract)\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F1CCC0-EC18-423B-A2A3-82F09D754961}|..\\Class11th (Abstract)\\Class11th (Abstract).csproj|c:\\users\\administrator\\desktop\\game-engine\\class11th (abstract)\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F1CCC0-EC18-423B-A2A3-82F09D754961}|..\\Class11th (Abstract)\\Class11th (Abstract).csproj|c:\\users\\administrator\\desktop\\game-engine\\class11th (abstract)\\rogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B64F0DE-309E-4D0B-9EC9-6353B6E6ABC2}|Program.csproj|c:\\users\\administrator\\desktop\\game-engine\\program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B64F0DE-309E-4D0B-9EC9-6353B6E6ABC2}|Program.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F1CCC0-EC18-423B-A2A3-82F09D754961}|..\\Class11th (Abstract)\\Class11th (Abstract).csproj|c:\\users\\administrator\\desktop\\game-engine\\class11th (abstract)\\wizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64F0DE-309E-4D0B-9EC9-6353B6E6ABC2}|Program.csproj|c:\\users\\administrator\\desktop\\game-engine\\program\\program.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B64F0DE-309E-4D0B-9EC9-6353B6E6ABC2}|Program.csproj|solutionrelative:program.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48B60A7F-6768-44B7-B33D-DBE1CA3665AA}|..\\Class10th (Polymorphism)\\Class10th (Polymorphism).csproj|c:\\users\\administrator\\desktop\\game-engine\\class10th (polymorphism)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -28,10 +47,6 @@
       "AbsoluteMoniker": "D:0:0:{2ECC9A90-7E42-496E-A56B-154BB1FFFA14}|..\\Class4th (Conditional Statement)\\Class4th (Conditional Statement).csproj|c:\\users\\administrator\\desktop\\game-engine\\class4th (conditional statement)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64F0DE-309E-4D0B-9EC9-6353B6E6ABC2}|Program.csproj|c:\\users\\administrator\\desktop\\game-engine\\program\\program.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9B64F0DE-309E-4D0B-9EC9-6353B6E6ABC2}|Program.csproj|solutionrelative:program.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D774A569-ACCA-4D1D-ADD5-16278B7DB7E1}|..\\Class3th (Overflow \u0026 Underflow)\\Class3th (Overflow \u0026 Underflow).csproj|c:\\users\\administrator\\desktop\\game-engine\\class3th (overflow \u0026 underflow)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -48,11 +63,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class11th (Abstract)\\Character.cs",
+              "RelativeDocumentMoniker": "..\\Class11th (Abstract)\\Character.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class11th (Abstract)\\Character.cs",
+              "RelativeToolTip": "..\\Class11th (Abstract)\\Character.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:39:45.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Wizard.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class11th (Abstract)\\Wizard.cs",
+              "RelativeDocumentMoniker": "..\\Class11th (Abstract)\\Wizard.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class11th (Abstract)\\Wizard.cs",
+              "RelativeToolTip": "..\\Class11th (Abstract)\\Wizard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:39:44.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Warrior.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class11th (Abstract)\\Warrior.cs",
+              "RelativeDocumentMoniker": "..\\Class11th (Abstract)\\Warrior.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class11th (Abstract)\\Warrior.cs",
+              "RelativeToolTip": "..\\Class11th (Abstract)\\Warrior.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:39:43.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rogue.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class11th (Abstract)\\Rogue.cs",
+              "RelativeDocumentMoniker": "..\\Class11th (Abstract)\\Rogue.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class11th (Abstract)\\Rogue.cs",
+              "RelativeToolTip": "..\\Class11th (Abstract)\\Rogue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:39:41.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class11th (Abstract)\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Class11th (Abstract)\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class11th (Abstract)\\Program.cs",
+              "RelativeToolTip": "..\\Class11th (Abstract)\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:38:57.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class10th (Polymorphism)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class10th (Polymorphism)\\Program.cs",
@@ -60,12 +140,11 @@
               "RelativeToolTip": "..\\Class10th (Polymorphism)\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T06:38:58.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T06:38:58.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class9th (Inheritance)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class9th (Inheritance)\\Program.cs",
@@ -73,12 +152,11 @@
               "RelativeToolTip": "..\\Class9th (Inheritance)\\Program.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAYwDwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T04:20:11.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T04:20:11.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class8th (Class)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class8th (Class)\\Program.cs",
@@ -86,12 +164,11 @@
               "RelativeToolTip": "..\\Class8th (Class)\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T04:43:49.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T04:43:49.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class7th (Arrangement)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class7th (Arrangement)\\Program.cs",
@@ -103,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class6th (Function)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class6th (Function)\\Program.cs",
@@ -115,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class5th (Iteration Statement)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class5th (Iteration Statement)\\Program.cs",
@@ -127,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class4th (Conditional Statement)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class4th (Conditional Statement)\\Program.cs",
@@ -139,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Program.csproj",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Program.csproj",
               "RelativeDocumentMoniker": "Program.csproj",
@@ -147,11 +224,12 @@
               "RelativeToolTip": "Program.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-19T05:44:32.834Z"
+              "WhenOpened": "2024-11-19T05:44:32.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class3th (Overflow \u0026 Underflow)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class3th (Overflow \u0026 Underflow)\\Program.cs",
@@ -163,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class2th (Bit)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class2th (Bit)\\Program.cs",
@@ -175,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Class1th (Variable)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Class1th (Variable)\\Program.cs",
@@ -187,13 +265,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Program\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T05:24:18.735Z",
               "EditorCaption": ""
