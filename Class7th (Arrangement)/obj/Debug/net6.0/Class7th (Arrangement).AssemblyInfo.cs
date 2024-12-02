@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Class7th (Arrangement)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d65aa0db11f7e8c0c9832832d3a2a0c0832b40c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1d1d5936faa3f2040ff04d498bdc6c6613b2954")]
 [assembly: System.Reflection.AssemblyProductAttribute("Class7th (Arrangement)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Class7th (Arrangement)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

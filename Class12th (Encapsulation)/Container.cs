@@ -1,4 +1,4 @@
-﻿namespace Program
+﻿namespace Class12th__Encapsulation_
 {
     internal class Container<T>
     {
