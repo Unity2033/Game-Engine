@@ -13,19 +13,20 @@ public class Runner : MonoBehaviour
 {
     [SerializeField] RoadLine roadLine;
 
+    [SerializeField] float speed = 20f;
     [SerializeField] int positionX = 4;
     [SerializeField] Animator animator;
     [SerializeField] Rigidbody rigidBody;
+
+    private void OnEnable()
+    {
+        InputManager.Instance.action += OnKeyUpdate;
+    }
 
     void Start()
     {
         animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody>();
-    }
-
-    void Update()
-    {
-        OnKeyUpdate();
     }
 
     private void FixedUpdate()
@@ -58,6 +59,11 @@ public class Runner : MonoBehaviour
 
     void Move()
     {
-        rigidBody.position = new Vector3((int)roadLine * positionX, 0, 0);
+        rigidBody.position = Vector3.Lerp (rigidBody.position, new Vector3((int)roadLine * positionX, 0, 0), Time.deltaTime * speed); 
+    }
+
+    private void OnDisable()
+    {
+        InputManager.Instance.action -= OnKeyUpdate;
     }
 }
