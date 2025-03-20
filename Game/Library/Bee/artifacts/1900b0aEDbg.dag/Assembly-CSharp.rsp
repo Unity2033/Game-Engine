@@ -358,6 +358,8 @@
 "Assets/Scripts/InteractZone.cs"
 "Assets/Scripts/MenuManager.cs"
 "Assets/Scripts/MouseManager.cs"
+"Assets/Scripts/Obstacle.cs"
+"Assets/Scripts/ObstacleManager.cs"
 "Assets/Scripts/Road.cs"
 "Assets/Scripts/RoadManager.cs"
 "Assets/Scripts/Runner.cs"
