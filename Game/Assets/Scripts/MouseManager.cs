@@ -20,7 +20,7 @@ public class MouseManager : Singleton<MouseManager>
     }
 
 
-    void State(int state)
+    public void State(int state)
     {
         switch (state)
         {

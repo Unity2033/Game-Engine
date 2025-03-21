@@ -31,6 +31,8 @@ public class Runner : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (GameManager.Instance.State == false) return;
+
         Move();
     }
 

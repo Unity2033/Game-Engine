@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Select : MonoBehaviour
 {
     [SerializeField] Text buttonText;
-
+    [SerializeField] Sound sound = new Sound(); 
 
     private void Awake()
     {
