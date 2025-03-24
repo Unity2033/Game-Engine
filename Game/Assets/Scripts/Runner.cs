@@ -64,8 +64,25 @@ public class Runner : MonoBehaviour
         rigidBody.position = Vector3.Lerp (rigidBody.position, new Vector3((int)roadLine * positionX, 0, 0), Time.deltaTime * speed); 
     }
 
+    void Die()
+    {
+        animator.Play("Die");
+
+        GameManager.Instance.Finish();
+    }
+
     private void OnDisable()
     {
         InputManager.Instance.action -= OnKeyUpdate;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Obstacle obstacle = other.GetComponent<Obstacle>();
+
+        if(obstacle != null)
+        {
+            Die();
+        }
     }
 }
