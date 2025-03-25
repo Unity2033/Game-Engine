@@ -3,16 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\runner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\runner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\roadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\game\\assets\\scripts\\resourcesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\speedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\scenerymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenerymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\game\\assets\\scripts\\interfacemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interfacemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\mousemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mousemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\interactzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\game\\assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\resourcesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resourcesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\game\\assets\\scripts\\obstaclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\select.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\select.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\obstaclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstaclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\runner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\runner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\watch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,52 +75,12 @@
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\select.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\select.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\scenerymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenerymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\roadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\interactzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\mousemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mousemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\assets\\scripts\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,7 +114,150 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InterfaceManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\InterfaceManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InterfaceManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\InterfaceManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InterfaceManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T05:43:37.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Obstacle.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Obstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Obstacle.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Obstacle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Obstacle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T04:41:20.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InputManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\InputManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InputManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvw8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T05:44:29.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAMwAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T06:01:50.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Road.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Road.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Road.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Road.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Road.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T05:22:31.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InteractZone.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\InteractZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractZone.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\InteractZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InteractZone.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T06:05:35.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SpeedManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\SpeedManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpeedManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\SpeedManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpeedManager.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T05:01:19.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T06:24:49.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MouseManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\MouseManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MouseManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\MouseManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MouseManager.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAQwCsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T04:19:14.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SceneryManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\SceneryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneryManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\SceneryManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneryManager.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA8wCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T05:08:35.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoadManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\RoadManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RoadManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\RoadManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RoadManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T05:45:59.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ResourcesManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\ResourcesManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ResourcesManager.cs",
@@ -119,109 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RoadManager.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\RoadManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RoadManager.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\RoadManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RoadManager.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBAAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T05:45:59.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InteractZone.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\InteractZone.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractZone.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\InteractZone.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractZone.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwAwAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T06:05:35.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ObstacleManager.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\ObstacleManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleManager.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\ObstacleManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ObstacleManager.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAswBkAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T05:06:10.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Timer.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Timer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Timer.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Timer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Timer.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T04:17:38.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Watch.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Watch.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Watch.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Watch.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Watch.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwBsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T04:18:44.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Obstacle.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Obstacle.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Obstacle.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Obstacle.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Obstacle.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAgAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T04:41:20.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Runner.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Runner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Runner.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Runner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Runner.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAxwEUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T04:09:12.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SceneryManager.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\SceneryManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneryManager.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\SceneryManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SceneryManager.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAACkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T05:08:35.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Select.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Select.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Select.cs",
@@ -234,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "Singleton.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Singleton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Singleton.cs",
@@ -242,12 +291,58 @@
               "RelativeToolTip": "Assets\\Scripts\\Singleton.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAADwvxkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T04:18:08.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T04:18:08.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
+              "Title": "Runner.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Runner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Runner.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Runner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Runner.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAqwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T04:09:12.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Watch.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Watch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Watch.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Watch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Watch.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T04:18:44.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ObstacleManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\ObstacleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\ObstacleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObstacleManager.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAUwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T05:06:10.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Timer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Timer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Timer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Timer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T04:17:38.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Sound.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Sound.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Sound.cs",
@@ -255,60 +350,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Sound.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T05:35:28.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T05:35:28.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAgwBAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T06:24:49.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MenuManager.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\MenuManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\MenuManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAEwAkAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T06:01:50.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MouseManager.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\MouseManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MouseManager.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\MouseManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MouseManager.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAADwvwUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T04:19:14.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "InputManager.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\InputManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InputManager.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\InputManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InputManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwvw8AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T05:44:29.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
@@ -317,18 +363,6 @@
               "ViewState": "AQIAAAEAAAAAAAAAAAAmwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T05:16:16.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Road.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Road.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Road.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Game\\Assets\\Scripts\\Road.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Road.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAwA0AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T05:22:31.724Z"
             }
           ]
         },

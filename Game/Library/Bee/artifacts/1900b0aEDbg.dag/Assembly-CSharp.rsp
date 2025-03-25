@@ -358,6 +358,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/InteractZone.cs"
+"Assets/Scripts/InterfaceManager.cs"
 "Assets/Scripts/MenuManager.cs"
 "Assets/Scripts/MouseManager.cs"
 "Assets/Scripts/Obstacle.cs"
@@ -370,6 +371,7 @@
 "Assets/Scripts/Select.cs"
 "Assets/Scripts/Singleton.cs"
 "Assets/Scripts/Sound.cs"
+"Assets/Scripts/SpeedManager.cs"
 "Assets/Scripts/Watch.cs"
 -langversion:9.0
 

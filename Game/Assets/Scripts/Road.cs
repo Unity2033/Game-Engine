@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Road : MonoBehaviour
+public class Road : MonoBehaviour, IHitable
 {
     [SerializeField] UnityEvent callback;
 

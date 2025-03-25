@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class ObstacleManager : MonoBehaviour
 {
-    [SerializeField] List<string> obstacleNames;
+    [SerializeField] Transform [ ] transforms;
     [SerializeField] List<GameObject> obstacles;
+
+    [SerializeField] List<string> obstacleNames;
 
     [SerializeField] int random;
     [SerializeField] int createCount = 5;
@@ -71,6 +73,8 @@ public class ObstacleManager : MonoBehaviour
                 // random 변수의 값을 +1을 해서 다시 검색합니다.
                 random = (random + 1) % obstacles.Count;
             }
+
+            obstacles[random].transform.position = transforms[Random.Range(0, transforms.Length)].position;
 
             obstacles[random].SetActive(true);
         }

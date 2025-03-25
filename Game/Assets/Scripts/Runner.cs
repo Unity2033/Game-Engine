@@ -13,7 +13,6 @@ public class Runner : MonoBehaviour
 {
     [SerializeField] RoadLine roadLine;
 
-    [SerializeField] float speed = 20f;
     [SerializeField] int positionX = 4;
     [SerializeField] Animator animator;
     [SerializeField] Rigidbody rigidBody;
@@ -61,7 +60,7 @@ public class Runner : MonoBehaviour
 
     void Move()
     {
-        rigidBody.position = Vector3.Lerp (rigidBody.position, new Vector3((int)roadLine * positionX, 0, 0), Time.deltaTime * speed); 
+        rigidBody.position = Vector3.Lerp(rigidBody.position, new Vector3((int)roadLine * positionX, 0, 0), SpeedManager.Instance.Speed * Time.deltaTime ); 
     }
 
     void Die()
