@@ -8,8 +8,6 @@ public class SpeedManager : Singleton<SpeedManager>
     [SerializeField] float speed = 30.0f;
     [SerializeField] float limitSpeed = 60.0f;
 
-    [SerializeField] WaitForSeconds waitForSeconds = new WaitForSeconds(5.0f);
-
     public float Speed { get { return speed; } }
 
     private void OnEnable()
@@ -21,7 +19,7 @@ public class SpeedManager : Singleton<SpeedManager>
     {
         while(GameManager.Instance.State && speed < limitSpeed)
         {
-            yield return waitForSeconds;
+            yield return CoroutineCache.WaitForSecond(5.0f);
 
             speed += 2.5f;
         }
