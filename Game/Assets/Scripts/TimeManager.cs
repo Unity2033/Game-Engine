@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class TimeManager : Singleton<TimeManager>
 {
+    [SerializeField] float bestTime;
+
     [SerializeField] float limitTime = 0.5f; 
     [SerializeField] float activeTime = 2.5f;
 
@@ -16,6 +18,19 @@ public class TimeManager : Singleton<TimeManager>
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    public void SetTime(float time)
+    {
+        bestTime = PlayerPrefs.GetFloat("Time");
+
+        Debug.Log("Best Time : " + bestTime);
+        Debug.Log("Current Time : " + time);
+
+        if (bestTime < time)
+        {
+            PlayerPrefs.SetFloat("Time", time);
+        }
     }
 
     IEnumerator Decrease()

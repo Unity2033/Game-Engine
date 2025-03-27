@@ -8,7 +8,13 @@ public class SpeedManager : Singleton<SpeedManager>
     [SerializeField] float speed = 30.0f;
     [SerializeField] float limitSpeed = 60.0f;
 
+    [SerializeField] float initializeSpeed;
+
+    [SerializeField] Runner runner;
+
     public float Speed { get { return speed; } }
+
+    public float InitializeSpeed { get { return initializeSpeed; } }
 
     private void OnEnable()
     {
@@ -22,6 +28,8 @@ public class SpeedManager : Singleton<SpeedManager>
             yield return CoroutineCache.WaitForSecond(5.0f);
 
             speed += 2.5f;
+
+            runner.Synchronize();
         }
     }
 
@@ -29,8 +37,12 @@ public class SpeedManager : Singleton<SpeedManager>
     {
         speed = 30f;
 
-        if(scene.buildIndex == 1)
+        initializeSpeed = speed;
+
+        if (scene.buildIndex == 1)
         {
+            runner = GameObject.Find("Runner").GetComponent<Runner>();
+
             StartCoroutine(Increase());
         }
     }

@@ -37,5 +37,7 @@ public class Watch : MonoBehaviour
 
             yield return null;
         }
+
+        TimeManager.Instance.SetTime(time);
     }
 }

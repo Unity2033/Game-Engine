@@ -305,7 +305,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 0.1}
+  m_Size: {x: 1, y: 1, z: 0.5}
   m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!114 &-7677460688809849381
 MonoBehaviour:
@@ -319,10 +319,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3bdbc99065f43e4fa772e2384d2b2c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  randomVector3:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
 --- !u!1 &3534499688900914606
 GameObject:
   m_ObjectHideFlags: 0
