@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SdkPath: Assets/PlayFabSDK
   EdExPath: 
-  PanelIsShown: 0
-  curMainMenuIdx: 1
+  PanelIsShown: 1
+  curMainMenuIdx: 0
   curSubMenuIdx: 0
