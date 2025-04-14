@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\fall guys\\assets\\scripts\\information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\fall guys\\assets\\scripts\\lobbymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lobbymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\assets\\scripts\\playfabmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfabmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\fall guys\\assets\\scripts\\information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\assets\\scripts\\parallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,6 +51,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LobbyManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\LobbyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LobbyManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\LobbyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LobbyManager.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAswDUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:24:14.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Information.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\Information.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Information.cs",
@@ -65,13 +82,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayfabManager.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\PlayfabManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayfabManager.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAUwDAAAAAFAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAIwDAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T05:01:20.053Z"
+              "WhenOpened": "2025-04-11T05:01:20.053Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Parallax.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\Parallax.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Parallax.cs",
