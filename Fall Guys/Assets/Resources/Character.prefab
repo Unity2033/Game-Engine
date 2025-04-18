@@ -1096,6 +1096,7 @@ GameObject:
   - component: {fileID: 6398636763510164481}
   - component: {fileID: 2887113474047517441}
   - component: {fileID: 2493222110348514676}
+  - component: {fileID: 7075807771366235736}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -1199,6 +1200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 200
+  mouseX: 0
   mouseY: 0
 --- !u!114 &2493222110348514676
 MonoBehaviour:
@@ -1216,6 +1218,18 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+--- !u!114 &7075807771366235736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3510289769958801190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba259adf090f0eb439c2abc81cf52f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4123515483936902742
 GameObject:
   m_ObjectHideFlags: 0
@@ -2166,6 +2180,8 @@ GameObject:
   - component: {fileID: 2819452002015019374}
   - component: {fileID: 5794296984597921160}
   - component: {fileID: 5779247066265205775}
+  - component: {fileID: 8967872470016052855}
+  - component: {fileID: 1486157531041708363}
   m_Layer: 0
   m_Name: First Person View
   m_TagString: Untagged
@@ -2247,6 +2263,34 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6128433018055001384}
   m_Enabled: 1
+--- !u!114 &8967872470016052855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6128433018055001384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f68f611950374284eba53d1405258a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotation: {fileID: 0}
+--- !u!114 &1486157531041708363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6128433018055001384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c479dfe8e22a24f49ab8f48088ace012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 200
+  mouseX: 0
+  mouseY: 0
 --- !u!1 &6139206787315814274
 GameObject:
   m_ObjectHideFlags: 0

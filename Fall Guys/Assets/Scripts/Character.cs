@@ -1,6 +1,7 @@
 using UnityEngine;
 using Photon.Pun;
 
+[RequireComponent(typeof(Mouse))]
 [RequireComponent(typeof(Rotation))]
 public class Character : MonoBehaviourPun
 {
