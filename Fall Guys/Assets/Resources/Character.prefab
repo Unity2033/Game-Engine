@@ -1183,7 +1183,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  power: 2.5
+  gravity: 9.81
   direction: {x: 0, y: 0, z: 0}
+  inputDirection: {x: 0, y: 0, z: 0}
   rotation: {fileID: 0}
   virtualCamera: {fileID: 5794296984597921160}
   characterController: {fileID: 0}
@@ -1199,7 +1202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c479dfe8e22a24f49ab8f48088ace012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 200
+  speed: 300
   mouseX: 0
   mouseY: 0
 --- !u!114 &2493222110348514676
@@ -2288,7 +2291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c479dfe8e22a24f49ab8f48088ace012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 200
+  speed: 300
   mouseX: 0
   mouseY: 0
 --- !u!1 &6139206787315814274

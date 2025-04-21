@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\fall guys\\assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\fall guys\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\assets\\scripts\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\fall guys\\assets\\scripts\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\government-funded-education\\fall guys\\assets\\scripts\\head.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\assets\\scripts\\head.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52592B58-7F99-694E-F69A-613D033DE8FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\head.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,26 +74,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Head.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\Head.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Head.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\Head.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Head.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxMAAAAYAAAA",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwBYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T04:38:50.767Z",
+              "WhenOpened": "2025-04-21T05:14:13.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Head.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\Head.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Head.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\Head.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Head.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA3wA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T04:38:50.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Mouse.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\Mouse.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mouse.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\Mouse.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mouse.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T04:19:29.697Z"
             },
@@ -101,14 +117,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rotation.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\Rotation.cs",
               "RelativeToolTip": "Assets\\Scripts\\Rotation.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowBoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T06:09:39.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CharacterManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\CharacterManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterManager.cs",
@@ -120,20 +136,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\Character.cs",
               "RelativeToolTip": "Assets\\Scripts\\Character.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAIwCQAAAAFAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwA8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T05:10:01.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T05:10:01.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LobbyManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\LobbyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LobbyManager.cs",
@@ -145,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Information.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\Information.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Information.cs",
@@ -157,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PlayfabManager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\PlayfabManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayfabManager.cs",
@@ -169,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Parallax.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Fall Guys\\Assets\\Scripts\\Parallax.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Parallax.cs",

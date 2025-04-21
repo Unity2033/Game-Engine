@@ -6,7 +6,12 @@ using Photon.Pun;
 public class Character : MonoBehaviourPun
 {
     [SerializeField] float speed;
+    [SerializeField] float power;
+    [SerializeField] float gravity;
+    
     [SerializeField] Vector3 direction;
+    [SerializeField] Vector3 inputDirection;
+
     [SerializeField] Rotation rotation;
     [SerializeField] Camera virtualCamera;
     [SerializeField] CharacterController characterController;
@@ -26,14 +31,40 @@ public class Character : MonoBehaviourPun
     {
         if (photonView.IsMine == false) return;
 
-        direction.x = Input.GetAxisRaw("Horizontal");
-        direction.z = Input.GetAxisRaw("Vertical");
+        Control();
 
-        direction.Normalize();
+        Jump();
 
         Move();
 
         Rotate();
+    }
+
+    void Control()
+    {
+        inputDirection.x = Input.GetAxisRaw("Horizontal");
+        inputDirection.z = Input.GetAxisRaw("Vertical");
+
+        inputDirection.Normalize();
+
+        inputDirection = characterController.transform.TransformDirection(inputDirection);
+    }
+
+    void Jump()
+    {
+        if(characterController.isGrounded)
+        {
+            direction.y = -1.0f;
+
+            if(Input.GetButtonDown("Jump"))
+            {
+                direction.y = power;
+            }
+        }
+        else
+        {
+            direction.y -= gravity * Time.deltaTime;
+        }
     }
 
     void Rotate()
@@ -45,9 +76,11 @@ public class Character : MonoBehaviourPun
 
     void Move()
     {
-        Vector3 modifiedTransform = transform.TransformDirection(direction * speed * Time.deltaTime);
+        Vector3 modifiedTransform = new Vector3(inputDirection.x, direction.y, inputDirection.z);
 
-        characterController.Move(modifiedTransform);
+        characterController.Move(modifiedTransform * speed * Time.deltaTime);
+
+        direction.y = modifiedTransform.y;
     }
 
     void DisableCamera()
