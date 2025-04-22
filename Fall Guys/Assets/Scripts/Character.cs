@@ -12,6 +12,8 @@ public class Character : MonoBehaviourPun
     [SerializeField] Vector3 direction;
     [SerializeField] Vector3 inputDirection;
 
+    [SerializeField] Vector3 initializeDirection;
+    
     [SerializeField] Rotation rotation;
     [SerializeField] Camera virtualCamera;
     [SerializeField] CharacterController characterController;
@@ -25,6 +27,8 @@ public class Character : MonoBehaviourPun
     void Start()
     {
         DisableCamera();
+
+        initializeDirection = transform.position;
     }
 
     void Update()
@@ -94,5 +98,14 @@ public class Character : MonoBehaviourPun
         {
             virtualCamera.gameObject.SetActive(false); 
         }
+    }
+
+    public void InitializePosition()
+    {
+        characterController.enabled = false;
+
+        transform.position = initializeDirection;
+
+        characterController.enabled = true;
     }
 }
