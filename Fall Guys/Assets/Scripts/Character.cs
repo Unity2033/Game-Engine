@@ -1,5 +1,6 @@
 using UnityEngine;
 using Photon.Pun;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Mouse))]
 [RequireComponent(typeof(Rotation))]
@@ -34,6 +35,12 @@ public class Character : MonoBehaviourPun
     void Update()
     {
         if (photonView.IsMine == false) return;
+
+        // UI에 포커스가 있다면 입력 무시
+        if (EventSystem.current.currentSelectedGameObject != null && EventSystem.current.currentSelectedGameObject.GetComponent<UnityEngine.UI.InputField>() != null)
+        {
+            return;
+        }
 
         Control();
 
