@@ -16,6 +16,11 @@ public class DialogManager : MonoBehaviourPunCallbacks
         {
             inputField.ActivateInputField();
 
+            if(inputField.text.Length <= 0)
+            {
+                return;
+            }
+
             string talk = inputField.text;
 
             // RPC Target.All : 현재 룸에 있는 모든 클라이언트에게 Talk() 함수를 
@@ -24,7 +29,10 @@ public class DialogManager : MonoBehaviourPunCallbacks
 
             // inputField의 텍스트를 초기화합니다.
             inputField.text = "";
-        }    
+
+            // 채팅을 입력한 후에도 이어서 입력을 할 수 있도록 설정합니다.
+            inputField.ActivateInputField();
+        }
     }
 
     [PunRPC]
@@ -38,9 +46,6 @@ public class DialogManager : MonoBehaviourPunCallbacks
 
         // 스크롤 뷰 - content 오브젝트의 자식으로 등록합니다.
         talk.transform.SetParent(parentTransform);
-
-        // 채팅을 입력한 후에도 이어서 입력을 할 수 있도록 설정합니다.
-        inputField.ActivateInputField();
 
         // Canvas를 수동으로 동기화 시킵니다.
         Canvas.ForceUpdateCanvases();

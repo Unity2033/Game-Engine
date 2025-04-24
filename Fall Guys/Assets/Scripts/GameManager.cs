@@ -1,6 +1,7 @@
 using Photon.Pun;
 using UnityEngine;
 using Photon.Realtime;
+using System;
 
 public class GameManager : MonoBehaviourPunCallbacks
 {
@@ -26,6 +27,23 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         time = PhotonNetwork.Time - initializeTime;
 
-        Debug.Log("Time : " + time);
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Exit();
+        }
+    }
+
+    public void Exit()
+    {
+        PhotonNetwork.LeaveRoom();
+    }
+
+    public override void OnLeftRoom()
+    {
+        Cursor.visible = true;
+
+        Cursor.lockState = CursorLockMode.None;
+
+        PhotonNetwork.LoadLevel("Lobby");
     }
 }
