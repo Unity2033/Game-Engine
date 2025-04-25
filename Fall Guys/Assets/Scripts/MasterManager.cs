@@ -5,51 +5,18 @@ using UnityEngine;
 
 public class MasterManager : MonoBehaviourPunCallbacks
 {
-    [SerializeField] GameObject platform;
-    [SerializeField] Vector3 direction = new Vector3(-12.5f, 0,-27.5f);
-    [SerializeField] WaitForSeconds waitForSeconds = new WaitForSeconds(5f);
+    [SerializeField] Vector3 direction = new Vector3(-12.5f, 0,-42.5f);
 
     void Start()
     {
         if (PhotonNetwork.IsMasterClient)
         {
-            platform = PhotonNetwork.InstantiateRoomObject("Platform", direction, Quaternion.identity);
-
-            StartCoroutine(Activate());
-        }
-    }
-
-    IEnumerator Activate()
-    {
-        while(true)
-        {
-            yield return waitForSeconds;
-
-            if (PhotonNetwork.CurrentRoom != null)
-            {
-                yield break;
-            }
-
-            if (platform.activeSelf)
-            {
-                platform.SetActive(false);
-            }
-            else
-            {
-                platform.SetActive(true);
-            }
+            PhotonNetwork.InstantiateRoomObject("Victory Sphere", direction, Quaternion.identity);
         }
     }
 
     public override void OnMasterClientSwitched(Player newMasterClient)
     {
-        PhotonNetwork.SetMasterClient(PhotonNetwork.PlayerList[0]);
-
-        if (platform == null)
-        {
-            platform = GameObject.Find("Platform(Clone)");
-        }
-        
-        StartCoroutine(Activate());
+        PhotonNetwork.SetMasterClient(PhotonNetwork.PlayerList[1]);    
     }
 }

@@ -115,4 +115,17 @@ public class Character : MonoBehaviourPun
 
         characterController.enabled = true;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Authorized")
+        {
+            PhotonView clone = other.GetComponent<PhotonView>();
+
+            if (clone.IsMine)
+            {
+                PhotonNetwork.Destroy(other.gameObject);
+            }
+        }
+    }
 }
