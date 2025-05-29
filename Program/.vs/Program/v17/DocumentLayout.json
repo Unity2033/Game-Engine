@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{09BC225B-8B25-4B9C-B818-0EF86EDF99D4}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{572BD10D-3BAA-497B-BE8A-CA0281B99731}|..\\Class6th (Pointer)\\Class6th (Pointer).vcxproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class6th (Pointer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{72CBEA47-A7D5-40EC-A872-77EBEB23DD91}|..\\Class1th (Variable \u0026 Constant)\\Class1th (Variable \u0026 Constant).vcxproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class1th (Variable \u0026 Constant)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -29,7 +32,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,20 +56,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class6th (Pointer)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class6th (Pointer)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class6th (Pointer)\\Source.c",
+              "RelativeToolTip": "..\\Class6th (Pointer)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-29T04:05:41.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Source.c",
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAAAI0AAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-05-27T05:27:05.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class5th (Type Conversion)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class5th (Type Conversion)\\Source.c",
@@ -78,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class4th (Conditional Statement)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class4th (Conditional Statement)\\Source.c",
@@ -90,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class3th (Iteration Statement)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class3th (Iteration Statement)\\Source.c",
@@ -102,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class2th (Bit)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class2th (Bit)\\Source.c",
@@ -114,15 +130,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class1th (Variable \u0026 Constant)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class1th (Variable \u0026 Constant)\\Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class1th (Variable \u0026 Constant)\\Source.c",
               "RelativeToolTip": "..\\Class1th (Variable \u0026 Constant)\\Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-05-21T05:41:51.029Z"
+              "WhenOpened": "2025-05-21T05:41:51.029Z",
+              "EditorCaption": ""
             }
           ]
         },
