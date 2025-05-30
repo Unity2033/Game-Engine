@@ -1,79 +1,65 @@
 #include <stdio.h>
 
+void Process()
+{
+	printf("Process...\n");
+}
+
+void Stats(int health, const char * name)
+{
+	printf("health : %d\n", health);
+	printf("name : %s\n\n", name);
+}
+
+void Swap(int left, int right)
+{
+	int temporary = left;
+
+    left = right;
+
+	right = temporary;
+}
+
 void main()
 {
-#pragma region 배열
-	// 같은 자료형의 변수들로 이루어진 유한 집합입니다.
+#pragma region 함수
+	// 하나의 특별한 목적의 작업을 수행하기 위해
+	// 독립적으로 설계된 코드의 집합입니다.
 
-	//	int array[5]; 
-	//	
-	//	int size = sizeof(array) / sizeof(int);
-	//	
-	//	for (int i = 0; i < size; i++)
-	//	{
-	//		array[i] = (i + 1) * 10;
-	//	
-	//		printf("array[%d] = %d\n", i, array[i]);
-	//	}
+	// Process();
 
-	// 배열의 경우 첫 번째 원소는 0부터 시작합니다.
+#pragma region 매개 변수
+	// 함수의 정의에서 전달받은 인수를 함수 내부로
+	// 전달하기 위해 사용하는 변수입니다.
 
-	// int list[5] = { 1, 2, 3, 4, 5 };
-	// 
-	// int * pointer = &list[0];
-	// 
-	// *pointer = 99;
-	// 
-	// printf("list[0]의 값 : %d\n", list[0]);
-	// 
-	// pointer = pointer + 1;
-	// 
-	// printf("pointer 변수의 값 : %p\n", pointer);
-	// printf("list[1]의 주소 값 : %p\n", &list[1]);
+	// Stats(100, "Slime");
+	// Stats(250, "Goblin");
+	// Stats(500, "Junior Golem");
 
-    // 배열은 원하는 원소에 원하는 값을 저장할 수 있으며,
-	// 배열의 크기는 컴파일이 되는 시점부터 고정된 메모리
-	// 공간을 가지게 됩니다.
-
-	// float container[] = { 10.0f, 12.5f, 15.0f,17.5f };
-
-	// 배열의 크기는 생략할 수 있으며, 초기화 목록에서 설정한
-	// 요소에 따라 배열의 크기가 결정됩니다.
+	// 매개 변수는 함수 내부에서만 연산이 이루어지며,
+	// 여러 개의 매개 변수를 생성할 수 있습니다.
 #pragma endregion
 
-#pragma region 문자열
-	// 연속적인 메모리 공간에 저장된 문자 변수의 집합입니다.
+#pragma region 인수
+	// 함수가 호출될 때 매개 변수에 실제로 전달되는 값입니다.
 
-	// const char * word = "Game";
-	// 
-	// // word[0] = 'W';
-	// 
-	// printf("word의 문자열 : %s\n", word);
+	int x = 10;
+	int y = 20;
 
-	// 문자열의 경우 포인터를 이용하여 문자열 상수를 가리키도록 
-	// 할 수 있으며, 문자열 상수는 데이터 영역에 읽기 전용 공간에
-	// 저장되기 때문에 문자열의 값을 변경할 수 없습니다.
+	Swap(x, y);
 
-	// word = "League of Leg\0end";
+	printf("x 변수의 값 : %d\n", x);
+	printf("y 변수의 값 : %d\n", y);
 
-	// printf("word의 문자열 : %s\n", word);
+	// 인수의 경우 값을 전달하는 인수와 값을 전달받는 매개 변수의
+	// 자료형이 서로 일치해야 합니다.
+#pragma endregion
 
-	// 문자열의 공백도 함께 메모리 공간에 포함하여 크기가 결정되며,
-	// 마지막에 문자열의 끝을 알려주는 제어 문자가 추가됩니다.
 
-	// char name[ ] = "James";
-	// 
-	// printf("name 배열의 값 : %s\n\n", name);
-	// 
-	// name[0] = 'K';
-	// 
-	// printf("name 배열의 값 : %s\n", name);
 
-	// name = "School";
-
-	// 문자열을 저장하게 되면 맨 마지막에 무효의 문자까지 메모리
-	// 공간에 저장됩니다.
-
+	// 함수는 프로그램이 실행 중일 때 함수 호출 위치
+	// 에서 해당 함수로 이동시킨 뒤, 작업을 수행하고
+	// 다시 원래 위치로 돌아오는 구조입니다.
 #pragma endregion
 
 
