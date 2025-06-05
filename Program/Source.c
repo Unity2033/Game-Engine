@@ -1,102 +1,115 @@
 #include <stdio.h>	 
-#include <math.h>
+#include <stdlib.h>
+#include <time.h>
 
-struct Card
+void Shuffle(int array[ ], int size)
 {
-	char grade;
-	int health;
-	double attack;
+	for (int i = 0; i < size; i++)
+	{
+		int seed = rand() % size;
 
-	// 구조체의 크기는 구조체를 구성하는 멤버 중에서 크기가
-	// 가장 큰 자료형의 배수가 되도록 설정합니다.
-};
+		int temporary = array[seed];
 
-struct Point2D
+		array[seed] = array[i];
+
+		array[i] = temporary;
+	}
+}
+
+void View(int count)
 {
-	int x;
-	int y;
-};
+	printf("Health : ");
 
-struct Node
-{
-	int data;
-	struct Node* next;
-};
+	for (int i = 0; i < count; i++)
+	{
+		printf("♥");
+	}
+
+	printf("\n\n");
+}
 
 int main()
 {
-#pragma region 구조체
-	// 여러 개의 변수를 하나의 집합으로 구조화한 다음
-	// 하나의 객체를 생성하는 것입니다.
+#pragma region 의사 난수
 
-	// struct Card card = {'A', 200, 12.5};
-
-	// 구조체의 각 멤버는 구조체 선언에서 나타나는 순서대로 초기화해야 되며,
-	// 이 순서는 왼쪽에서부터 오른쪽으로 이어집니다.
-
-	// printf("card.grade : %c\n", card.grade);
-	// printf("card.health : %d\n", card.health);
-	// printf("card.attack : %lf\n\n", card.attack);
-	// 
-	// card.grade = 'B';
-	// card.health = 100;
-	// card.attack = 7.5;
-	// 
-	// printf("card.grade : %c\n", card.grade);
-	// printf("card.health : %d\n", card.health);
-	// printf("card.attack : %lf\n", card.attack);
-
-	// 구조체를 선언하기 전에 구조체는 메모리 공간이 생성
-	// 되지 않으므로, 구조체 내부에 있는 데이터를 초기화
-	// 할 수 없습니다.
-#pragma endregion
-
-#pragma region 바이트 패딩
-	// 멤버 변수를 메모리에서 CPU로 읽을 때 한 번에
-	// 읽을 수 있도록 컴파일러가 레지스터의 블록에 
-	// 맞추어 바이트를 패딩해주는 최적화 작업입니다.
-
-	// printf("Card 구조체의 크기 : %u\n", sizeof(struct Card));
-
-	// 구조체 크기의 경우 멤버 변수의 순서에 따라 메모리
-	// 크기가 다르게 설정될 수 있으며, 구조체 크기를 결정
-	// 하는 형태는 기본 자료형으로만 구성됩니다.
-#pragma endregion
-
-#pragma region 두 점 사이의 거리
-
-	//	struct Point2D rogue = {0, 0};
-	//	struct Point2D slime = {1, 1};
-	//	
-	//	double x = rogue.x - slime.x;
-	//	double y = rogue.y - slime.y;
-	//	
-	//	double distance = sqrt(pow(x, 2) + pow(y, 2));
-	//	
-	//	if (distance >= 3.0)
-	//	{
-	//		printf("Can't Attack");
-	//	}
-	//	else
-	//	{
-	//		printf("Can Attack");
-	//	}
-
-#pragma endregion
-
-#pragma region 자기 참조 구조체
-	// 자기 자신과 같은 타입의 포인터를 멤버로 포함하고
-	// 있는 구조체입니다.
+	// rand() : 0 ~ 32767 사이의 난수의 값을 반환하는 함수입니다.
 	
-	struct Node node1 = { 10, NULL };
-	struct Node node2 = { 20, NULL };
-	struct Node node3 = { 30, NULL };
+	// time(NULL) : 1970년 1월 1일 (00 : 00 : 00) UTC 이후에 지난 초(Second)를 반환하는 함수입니다.
 
-	node1.next = &node2;
-	node2.next = &node3;
-	node3.next = NULL;
+	// srand(seed) : 난수 생성기의 시드를 설정하는 함수입니다.
+
+	// srand(time(NULL));
+	// 
+	// int index = rand() % 10 + 1;
+	// 
+	// printf("index : %d\n", index);
 
 #pragma endregion
+
+#pragma region 셔플 함수
+
+	//	srand(time(NULL));
+	//	
+	//	int list[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	//	
+	//	int size = sizeof(list) / sizeof(int);
+	//	
+	//	Shuffle(list, size);
+	//	
+	//	for (int i = 0; i < size; i++)
+	//	{
+	//		printf("list[%d] = %d\n", i, list[i]);
+	//	}
+
+#pragma endregion
+
+#pragma region Game
+
+	srand(time(NULL));
+
+	int health = 5;
+	int answer = 0;
+
+	int computer = rand() % 50 + 1;
+
+	while (health > 0)
+	{
+		View(health);
+
+		printf("Computer가 가지고 있는 값 : ");
+		scanf_s("%d", &answer);
+
+		printf("\n");
+
+		if (answer > computer)
+		{
+			health--;
+			printf("컴퓨터가 가지고 있는 값보다 큽니다.\n");
+		}
+		else if (answer < computer)
+		{
+			health--;
+			printf("컴퓨터가 가지고 있는 값보다 작습니다.\n");
+		}
+		else
+		{
+			break;
+		}
+
+		printf("\n");
+	}
+
+	if (health > 0)
+	{
+		printf("V I C T O R Y\n");
+	}
+	else
+	{
+		printf("D E F E A T\n");
+	}
+
+#pragma endregion
+
 
 	return 0;
 }
