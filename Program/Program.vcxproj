@@ -127,7 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Antidote.cpp" />
+    <ClCompile Include="Consumable.cpp" />
+    <ClCompile Include="Lantern.cpp" />
+    <ClCompile Include="Potion.cpp" />
     <ClCompile Include="Program.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Antidote.h" />
+    <ClInclude Include="Consumable.h" />
+    <ClInclude Include="Lantern.h" />
+    <ClInclude Include="Potion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
