@@ -127,17 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Brush.cpp" />
-    <ClCompile Include="Paint.cpp" />
-    <ClCompile Include="Pencil.cpp" />
     <ClCompile Include="Program.cpp" />
-    <ClCompile Include="Vector2.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Brush.h" />
-    <ClInclude Include="Paint.h" />
-    <ClInclude Include="Pencil.h" />
-    <ClInclude Include="Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

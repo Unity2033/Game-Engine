@@ -15,9 +15,55 @@ void Vector2::Position() const
 	cout << "y : " << y << endl;
 }
 
+const Vector2& Vector2::operator++()
+{
+	this->x++;
+	this->y++;
+
+	return *this;
+}
+
+const Vector2& Vector2::operator++(int)
+{
+	Vector2 clone(x, y);
+
+	this->x++;
+	this->y++;
+
+	return clone;
+}
+
 const Vector2 & Vector2::operator+(const Vector2& vector2)
 {
 	Vector2 clone(this->x + vector2.x, this->y + vector2.y);
+
+	return clone;
+}
+
+const Vector2& Vector2::operator-(const Vector2& vector2)
+{
+	Vector2 clone(this->x - vector2.x, this->y - vector2.y);
+
+	return clone;
+}
+
+const Vector2& Vector2::operator*(const Vector2& vector2)
+{
+	Vector2 clone(this->x * vector2.x, this->y * vector2.y);
+
+	return clone;
+}
+
+const Vector2& Vector2::operator/(const Vector2& vector2)
+{
+	Vector2 clone(this->x / vector2.x, this->y / vector2.y);
+
+	return clone;
+}
+
+const Vector2& Vector2::operator%(const Vector2& vector2)
+{
+	Vector2 clone(this->x % vector2.x, this->y % vector2.y);
 
 	return clone;
 }

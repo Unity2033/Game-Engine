@@ -1,43 +1,90 @@
 ﻿#include <iostream>
-#include "Brush.h"
-#include "Pencil.h"	
-#include "Vector2.h"
+
+#define SIZE 5
 
 using namespace std;
 
+template <typename T>
+bool Same(T left, T right)
+{
+	return left == right;
+}
+
+template<>
+bool Same(const char * left, const char * right)
+{
+	return strlen(left) == strlen(right);
+}
+
+template<typename T>
+class Container
+{
+private:
+	int index;
+
+	T list[SIZE];
+
+public:
+	Container()
+	{
+		index = 0;
+
+		for (int i = 0; i < SIZE; i++)
+		{
+			list[i] = NULL;
+		}
+	}
+
+	void Add(T data)
+	{
+		if (index < SIZE)
+		{
+			list[index++] = data;
+		}
+		else
+		{
+			cout << "Index Out of Range" << endl;
+		}
+	}
+
+	const T & operator [](int count)
+	{
+		return  list[count];
+	}
+};
+
 int main()
 {
-#pragma region 추상 클래스
-	// 함수에 특정한 내용이 구현되어 있지 않고, 선언만
-	// 되어 있는 클래스입니다.
+#pragma region 템플릿
+	// 데이터 형식에 의존하지 않고, 하나의 값이 여러 다른 데이터
+	// 형식을 가질 수 있는 기술에 중점을 두어 재사용성을 높일 수
+	// 있는 기능입니다.
 
-	// Paint * paint = new Pencil;
-	// 
-	// paint->Draw();
-	// 
-	// delete paint;
-	// 
-	// paint = new Brush;
-	// 
-	// paint->Draw();
-	// 
-	// delete paint;
+	// cout << Same<char>('A', 'B') << endl;
+	// cout << Same<int>(5, 5) << endl;
+	// cout << Same<int>(14.5f, 7.5f) << endl;
 
-	// 추상 클래스는 정의되어 있지 않은 함수가 있으므로,
-	// 객체를 생성할 수 없습니다.
-#pragma endregion
+	Container<int> container;
 
-#pragma region 연산자 오버로딩
+	container.Add(10);
+	container.Add(20);
+	container.Add(30);
+	container.Add(40);
+	container.Add(50);
 
-	Vector2 point1D(3, 4);
-	Vector2 point2D(1, 2);
-
-	Vector2 direction = point1D + point2D;
-
-	direction.Position();
+	for (int i = 0; i < SIZE; i++)
+	{
+		cout << container[i] << endl;
+	}
 
 #pragma endregion
 
+#pragma region 템플릿 특수화
+	// 특정 자료형에 대해 다르게 처리하고 싶은 경우
+	// 특정한 자료형만 다른 형식으로 동작시키는 기능입니다.
+
+	// cout << Same("ABC", "ABCD");
+#pragma endregion
 
 
 	return 0;

@@ -1,3 +1,2 @@
-﻿  Vector2.cpp
-C:\Users\Administrator\Desktop\Government-Funded-Education\Program\Vector2.cpp(22,1): warning C4172: 지역 변수 또는 임시: clone의 주소를 반환하고 있습니다.
+﻿  Program.cpp
   Program.vcxproj -> C:\Users\Administrator\Desktop\Government-Funded-Education\Program\x64\Debug\Program.exe
