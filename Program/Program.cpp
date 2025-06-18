@@ -1,90 +1,147 @@
 ﻿#include <iostream>
-
-#define SIZE 5
+#include <vector>
+#include <list>
+#include <stack>
+#include <queue>
 
 using namespace std;
 
-template <typename T>
-bool Same(T left, T right)
-{
-	return left == right;
-}
-
-template<>
-bool Same(const char * left, const char * right)
-{
-	return strlen(left) == strlen(right);
-}
-
-template<typename T>
-class Container
-{
-private:
-	int index;
-
-	T list[SIZE];
-
-public:
-	Container()
-	{
-		index = 0;
-
-		for (int i = 0; i < SIZE; i++)
-		{
-			list[i] = NULL;
-		}
-	}
-
-	void Add(T data)
-	{
-		if (index < SIZE)
-		{
-			list[index++] = data;
-		}
-		else
-		{
-			cout << "Index Out of Range" << endl;
-		}
-	}
-
-	const T & operator [](int count)
-	{
-		return  list[count];
-	}
-};
-
 int main()
 {
-#pragma region 템플릿
-	// 데이터 형식에 의존하지 않고, 하나의 값이 여러 다른 데이터
-	// 형식을 가질 수 있는 기술에 중점을 두어 재사용성을 높일 수
-	// 있는 기능입니다.
+#pragma region 선형 컨테이너
 
-	// cout << Same<char>('A', 'B') << endl;
-	// cout << Same<int>(5, 5) << endl;
-	// cout << Same<int>(14.5f, 7.5f) << endl;
+#pragma region vector container
 
-	Container<int> container;
-
-	container.Add(10);
-	container.Add(20);
-	container.Add(30);
-	container.Add(40);
-	container.Add(50);
-
-	for (int i = 0; i < SIZE; i++)
-	{
-		cout << container[i] << endl;
-	}
+	//	vector<int> vector;
+	//	
+	//	vector.reserve(10);
+	//	
+	//	vector.push_back(10);
+	//	vector.push_back(20);
+	//	
+	//	cout << "vector Capacity : " << vector.capacity() << endl;
+	//	
+	//	vector.push_back(30);
+	//	vector.push_back(40);
+	//	vector.push_back(50);
+	//	
+	//	vector.pop_back();
+	//	vector.pop_back();
+	//	
+	//	cout << "vector Capacity : " << vector.capacity() << endl;
+	//	
+	//	for (int i = 0; i < vector.size(); i++)
+	//	{
+	//		cout << vector[i] << " ";
+	//	}
 
 #pragma endregion
 
-#pragma region 템플릿 특수화
-	// 특정 자료형에 대해 다르게 처리하고 싶은 경우
-	// 특정한 자료형만 다른 형식으로 동작시키는 기능입니다.
-
-	// cout << Same("ABC", "ABCD");
+#pragma region list container
+	//	std::list <int> list;
+	//	
+	//	// [20]
+	//	list.push_back(20);
+	//	
+	//	// [20] - [30]
+	//	list.push_back(30);
+	//	
+	//	// [10] - [20] - [30]
+	//	list.push_front(10);
+	//	
+	//	// [20] - [30]
+	//	list.pop_front();
+	//	
+	//	for (int element : list)
+	//	{
+	//		cout << element << endl;
+	//	}
+	//	
+	//	list.assign(3, 10);
+	//	
+	//	for (int element : list)
+	//	{
+	//		cout << element << endl;
+	//	}
+	//	
+	//	cout << "list size : " << list.size() << endl;
 #pragma endregion
+
+#pragma region string
+
+	// string content;
+	// 
+	// content = "Battle Field";
+	// 
+	// content.append(" 5");
+	// 
+	// cout << content.capacity() << endl;
+	// 
+	// cout << content << endl;
+	// 
+	// content = "League of Legend";
+	// 
+	// 
+	// cout << content << endl;
+	// 
+	// cout << content.capacity() << endl;
+#pragma endregion
+
+#pragma endregion
+
+#pragma region 컨테이너 어댑터
+	
+#pragma region stack container
+
+	// std::stack<int> stack;
+	// 
+	// stack.push(10);
+	// stack.push(20);
+	// stack.push(30);
+	// stack.push(40);
+	// stack.push(50);
+	// 
+	// cout << "Stack의 크기 : " << stack.size() << endl;
+	// 
+	// while (stack.empty() == false)
+	// {
+	// 	cout << stack.top() << endl;
+	// 
+	// 	stack.pop();
+	// }
+	// 
+	// cout << "Stack의 크기 : " << stack.size() << endl;
+
+#pragma endregion
+
+#pragma region queue container
+
+//	std::queue<int> queue;
+//	
+//	queue.push(10);
+//	queue.push(20);
+//	queue.push(30);
+//	queue.push(40);
+//	queue.push(50);
+//	
+//	cout << "Queue Size : " << queue.size() << endl;
+//	
+//	while (queue.empty() == false)
+//	{
+//		cout << queue.front() << " ";
+//	
+//		queue.pop();
+//	}
+//	cout << endl;
+//	
+//	cout << "Queue Size : " << queue.size() << endl;
+
+#pragma endregion
+
+
+#pragma endregion
+
+
 
 
 	return 0;

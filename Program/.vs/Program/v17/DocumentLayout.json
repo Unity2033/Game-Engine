@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{DDF189A6-53E2-4391-A709-4F33A299BFC7}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8E29D414-BC03-431F-BDFC-E136EF82422D}|..\\Class7th (Template)\\Class7th (Template).vcxproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class7th (Template)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{61EF998D-1591-4EF7-AFB8-9953B1302856}|..\\Class3th (Constructor \u0026 Destructor)\\Class3th (Constructor \u0026 Destructor).vcxproj|C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class3th (Constructor \u0026 Destructor)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -42,7 +45,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +69,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class7th (Template)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class7th (Template)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class7th (Template)\\Source.cpp",
+              "RelativeToolTip": "..\\Class7th (Template)\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-18T04:04:29.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class6th (Abstract)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class6th (Abstract)\\Source.cpp",
@@ -74,12 +90,11 @@
               "RelativeToolTip": "..\\Class6th (Abstract)\\Source.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-17T04:10:39.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T04:10:39.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Consumable.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Consumable.cpp",
               "RelativeDocumentMoniker": "Consumable.cpp",
@@ -91,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class5th (Polymorphism)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class5th (Polymorphism)\\Source.cpp",
@@ -103,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class4th (Inheritance)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class4th (Inheritance)\\Source.cpp",
@@ -115,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class3th (Constructor \u0026 Destructor)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class3th (Constructor \u0026 Destructor)\\Source.cpp",
@@ -123,12 +138,11 @@
               "RelativeToolTip": "..\\Class3th (Constructor \u0026 Destructor)\\Source.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-11T06:34:45.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T06:34:45.99Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class2th (Class)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class2th (Class)\\Source.cpp",
@@ -146,14 +160,14 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AQIAADQAAAAAAAAAAADwv00AAAACAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwIsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-09T04:13:47.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Government-Funded-Education\\Class1th (Stream)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class1th (Stream)\\Source.cpp",
@@ -165,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "delete_scalar.cpp",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\delete_scalar.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\delete_scalar.cpp",
@@ -177,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "format",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\format",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\format",
