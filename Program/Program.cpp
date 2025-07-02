@@ -1,148 +1,45 @@
 ﻿#include <iostream>
-#include <vector>
-#include <list>
-#include <stack>
-#include <queue>
+#include "Packet.h"
+#include "Resource.h"
 
 using namespace std;
 
 int main()
 {
-#pragma region 선형 컨테이너
-
-#pragma region vector container
-
-	//	vector<int> vector;
-	//	
-	//	vector.reserve(10);
-	//	
-	//	vector.push_back(10);
-	//	vector.push_back(20);
-	//	
-	//	cout << "vector Capacity : " << vector.capacity() << endl;
-	//	
-	//	vector.push_back(30);
-	//	vector.push_back(40);
-	//	vector.push_back(50);
-	//	
-	//	vector.pop_back();
-	//	vector.pop_back();
-	//	
-	//	cout << "vector Capacity : " << vector.capacity() << endl;
-	//	
-	//	for (int i = 0; i < vector.size(); i++)
-	//	{
-	//		cout << vector[i] << " ";
-	//	}
-
-#pragma endregion
-
-#pragma region list container
-	//	std::list <int> list;
-	//	
-	//	// [20]
-	//	list.push_back(20);
-	//	
-	//	// [20] - [30]
-	//	list.push_back(30);
-	//	
-	//	// [10] - [20] - [30]
-	//	list.push_front(10);
-	//	
-	//	// [20] - [30]
-	//	list.pop_front();
-	//	
-	//	for (int element : list)
-	//	{
-	//		cout << element << endl;
-	//	}
-	//	
-	//	list.assign(3, 10);
-	//	
-	//	for (int element : list)
-	//	{
-	//		cout << element << endl;
-	//	}
-	//	
-	//	cout << "list size : " << list.size() << endl;
-#pragma endregion
-
-#pragma region string
-
-	// string content;
-	// 
-	// content = "Battle Field";
-	// 
-	// content.append(" 5");
-	// 
-	// cout << content.capacity() << endl;
-	// 
-	// cout << content << endl;
-	// 
-	// content = "League of Legend";
-	// 
-	// 
-	// cout << content << endl;
-	// 
-	// cout << content.capacity() << endl;
-#pragma endregion
-
-#pragma endregion
-
-#pragma region 컨테이너 어댑터
+#pragma region Smart Pointer
 	
-#pragma region stack container
+#pragma region unique pointer
+	// 특정한 객체를 하나의 스마트 포인터만 가리킬 수
+	// 있도록 되어 있는 포인터입니다.
 
-	// std::stack<int> stack;
+	// unique_ptr<Packet> pointer = make_unique<Packet>();
 	// 
-	// stack.push(10);
-	// stack.push(20);
-	// stack.push(30);
-	// stack.push(40);
-	// stack.push(50);
+	// pointer->Receive();
 	// 
-	// cout << "Stack의 크기 : " << stack.size() << endl;
+	// unique_ptr<Packet> reference = std::move(pointer);
 	// 
-	// while (stack.empty() == false)
-	// {
-	// 	cout << stack.top() << endl;
-	// 
-	// 	stack.pop();
-	// }
-	// 
-	// cout << "Stack의 크기 : " << stack.size() << endl;
-
+	// pointer->Receive();
 #pragma endregion
 
-#pragma region queue container
+#pragma region shared pointer
+	// 하나의 자원 객체를 여러 포인터 객체가 가리킬 수 있으며,
+	// 모든 포인터 객체가 자우너 객체를 필요하지 않을 때 자원 객체를
+	// 해제하도록 설계되어 있는 포인터입니다.
 
-//	std::queue<int> queue;
-//	
-//	queue.push(10);
-//	queue.push(20);
-//	queue.push(30);
-//	queue.push(40);
-//	queue.push(50);
-//	
-//	cout << "Queue Size : " << queue.size() << endl;
-//	
-//	while (queue.empty() == false)
-//	{
-//		cout << queue.front() << " ";
-//	
-//		queue.pop();
-//	}
-//	cout << endl;
-//	
-//	cout << "Queue Size : " << queue.size() << endl;
+	shared_ptr<Resource> oil = make_shared<Resource>();
+
+	{
+		shared_ptr<Resource> mineral = oil;
+
+		cout << "Reference Count : " << oil.use_count() << endl;
+	}
+
+	cout << "Reference Count : " << oil.use_count() << endl;
 
 #pragma endregion
 
 
 #pragma endregion
-
-
-
 
 	return 0;
 }
