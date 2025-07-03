@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <vector>
 #include <list>
+#include <deque>
 
 using namespace std;
 
@@ -63,6 +64,32 @@ int main()
 	//	}
 	//	
 	//	cout << "list size : " << list.size() << endl;
+#pragma endregion
+
+#pragma region deque container
+
+	//	std::deque<int> deque;
+	//	
+	//	deque.push_back(10);
+	//	deque.push_back(20);
+	//	deque.push_back(30);
+	//	deque.push_back(40);
+	//	deque.push_back(50);
+	//	
+	//	deque.push_front(5);
+	//	deque.push_front(1);
+	//	
+	//	deque.push_back(60);
+	//	deque.push_back(75);
+	//	
+	//	deque.pop_back();
+	//	deque.pop_front();
+	//	
+	//	for (int i = 0; i < deque.size(); i++)
+	//	{
+	//		cout << deque[i] << " ";
+	//	}
+
 #pragma endregion
 
 #pragma region string
