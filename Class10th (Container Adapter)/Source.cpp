@@ -57,8 +57,21 @@ int main()
 
 #pragma region priority queue container
 
-#pragma endregion
+	//	std::priority_queue<int> priority_queue;
+	//	
+	//	priority_queue.push(10);
+	//	priority_queue.push(9);
+	//	priority_queue.push(31);
+	//	priority_queue.push(20);
+	//	
+	//	while (priority_queue.empty() == false)
+	//	{
+	//		cout << priority_queue.top() << endl;
+	//	
+	//		priority_queue.pop();
+	//	}
 
+#pragma endregion
 
 #pragma endregion
 }
