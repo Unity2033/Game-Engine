@@ -123,6 +123,11 @@ public:
         }
     }
 
+    bool empty()
+    {
+        return (head == nullptr);
+    }
+
     ~List()
     {
         while (head != nullptr)
@@ -145,6 +150,9 @@ int main()
     list.pop_front();
 
     list.pop_back();
+
+
+    cout << list.empty() << endl;
 
     return 0;
 }
