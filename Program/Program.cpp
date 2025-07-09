@@ -22,6 +22,7 @@ public:
         size = 0;
         head = NULL;
         tail = NULL;
+
     }
 };
 
