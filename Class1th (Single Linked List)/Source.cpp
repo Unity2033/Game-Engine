@@ -157,13 +157,14 @@ public:
                     size--;
 
                     deleteNode = head;
-
-                    return;
                 }
 
-                previousNode = deleteNode;
+                if (size > 1)
+                {
+                    previousNode = deleteNode;
 
-                deleteNode = deleteNode->next;
+                    deleteNode = deleteNode->next;
+                }
             }
         }
     }
