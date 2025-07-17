@@ -2,80 +2,66 @@
 
 using namespace std;
 
-template<typename T>
-class List
+template <typename T>
+class Vector
 {
 private:
-    struct Node
-    {
-        T data;
-        Node * next;
-    };
-
     int size;
-    Node * head;
+    int capacity;
+
+    T * container;
 public:
-    List()
+    Vector()
     {
         size = 0;
-        head = nullptr;
+        capacity = 0;
+        container = nullptr;
     }
 
-    void push_back(T data)
+    void resize(int newSize)
     {
-        Node * newNode = new Node;
+        // 1. capacity에 새로운 size 값을 저정합니다.
+        capacity = newSize;
 
-        newNode->data = data;
+        // 2. 새로운 포인터 변수를 생성해서 새롭게 만들어진
+        //    메모리 공간을 가리키도록 합니다.
+        T * pointer = new T[capacity];
 
-        if (head == nullptr)
+        // 3. 새로운 메모리 공간의 값을 초기화합니다.
+        for (int i = 0; i < capacity; i++)
         {
-            head = newNode;
-
-            newNode->next = head;
-        }
-        else
-        {
-            newNode->next = head->next;
-
-            head->next = newNode;
-
-            head = newNode;
+            pointer[i] = NULL;
         }
 
-        size++;
+        // 4. 기존 배열에 있는 값을 복사해서 새로운
+        //    배열에 넣어줍니다.
+        for (int i = 0; i < size; i++)
+        {
+            pointer[i] = container[i];
+        }
+
+        // 5. 기존 배열의 메모리를 해제합니다.
+        if (container != nullptr)
+        {
+            delete [ ] container;
+        }
+
+        // 6. 기존에 배열을 가리키던 포인터 변수의 값을
+        //    새로운 배열의 시작 주소로 가리킵니다.
+        container = pointer;      
     }
 
-    void push_front(T data)
+    ~Vector()
     {
-        Node * newNode = new Node;
-
-        newNode->data = data;
-
-        if (head == nullptr)
+        if (container != nullptr)
         {
-            head = newNode;
-
-            newNode->next = head;
+            delete [] container;
         }
-        else
-        {
-            newNode->next = head->next;
-
-            head->next = newNode;
-        }
-
-        size++;
     }
 };
 
 int main()
 {
-    List<int> list;
-
-    list.push_back(10);
-    list.push_back(20);
-    list.push_front(5);
-    list.push_front(1);
 
     return 0;
 }
