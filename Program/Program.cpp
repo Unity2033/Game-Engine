@@ -2,66 +2,55 @@
 
 using namespace std;
 
-template <typename T>
-class Vector
+class String
 {
 private:
     int size;
-    int capacity;
+    char * pointer;
 
-    T * container;
 public:
-    Vector()
+    String()
     {
         size = 0;
-        capacity = 0;
-        container = nullptr;
+        pointer = nullptr;
     }
 
-    void resize(int newSize)
+    void operator = (const char* word)
     {
-        // 1. capacity에 새로운 size 값을 저정합니다.
-        capacity = newSize;
+        size = strlen(word) + 1;
 
-        // 2. 새로운 포인터 변수를 생성해서 새롭게 만들어진
-        //    메모리 공간을 가리키도록 합니다.
-        T * pointer = new T[capacity];
-
-        // 3. 새로운 메모리 공간의 값을 초기화합니다.
-        for (int i = 0; i < capacity; i++)
+        if (pointer == nullptr)
         {
-            pointer[i] = NULL;
+            pointer = new char[size];
+
+            for (int i = 0; i < size; i++)
+            {
+                pointer[i] = word[i];
+            }
         }
-
-        // 4. 기존 배열에 있는 값을 복사해서 새로운
-        //    배열에 넣어줍니다.
-        for (int i = 0; i < size; i++)
+        else
         {
-            pointer[i] = container[i];
-        }
+            char* container = new char[size];
 
-        // 5. 기존 배열의 메모리를 해제합니다.
-        if (container != nullptr)
-        {
-            delete [ ] container;
-        }
+            for (int i = 0; i < size; i++)
+            {
+                container[i] = word[i];
+            }
 
-        // 6. 기존에 배열을 가리키던 포인터 변수의 값을
-        //    새로운 배열의 시작 주소로 가리킵니다.
-        container = pointer;      
-    }
+            delete [ ] pointer;
 
-    ~Vector()
-    {
-        if (container != nullptr)
-        {
-            delete [] container;
+            pointer = container;
         }
     }
 };
 
 int main()
 {
+    String message;
 
+    message = "League of Legend";
+
+    message = "Adidas";
+    
     return 0;
 }
