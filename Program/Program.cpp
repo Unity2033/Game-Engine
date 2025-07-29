@@ -1,112 +1,58 @@
 ﻿#include <iostream>
 
+#define SIZE 10
+
 using namespace std;
 
-template <typename T>
-class AdjacencyMatrix
+template<typename T>
+class AdjacecnyList
 {
 private:
+    struct Node
+    {
+        T data;
+        Node * next;
+
+        Node(T data, Node * link = nullptr)
+        {
+            this->data = data;
+            next = link;
+        }
+    };
+
     int size; // 정점의 개수
-    int capacity; // 최대 용량
-
-    int** matrix; // 인접 행렬
-    int matrixCount; // 인접 행렬의 크기
-
-    T * vertex; // 정점의 집합
+    T vertex[SIZE]; // 정점의 집합
+    Node* list[SIZE]; // 인접 리스트
 
 public:
-    AdjacencyMatrix()
+    AdjacecnyList()
     {
         size = 0;
-        capacity = 0;
-        vertex = nullptr;
+
+        for (int i = 0; i < SIZE; i++)
+        {
+            list[i] = NULL;
+            vertex[i] = NULL;
+        }
     }
 
     void push(T data)
     {
-        if (capacity <= 0)
+        if (size >= SIZE)
         {
-            resize(1);
+            cout << "Adjacency List Overflow" << endl;
         }
-        else if (size >= capacity)
+        else
         {
-            resize(capacity * 2);
-        }
-
-        vertex[size++] = data;
-    }
-
-
-    void resize(int newSize)
-    {
-        // 1. capacity에 새로운 size 값을 저정합니다.
-        capacity = newSize;
-
-        // 2. 새로운 포인터 변수를 생성해서 새롭게 만들어진
-        //    메모리 공간을 가리키도록 합니다.
-        T* pointer = new T[capacity];
-
-        // 3. 새로운 메모리 공간의 값을 초기화합니다.
-        for (int i = 0; i < capacity; i++)
-        {
-            pointer[i] = NULL;
-        }
-
-        // 4. 기존 배열에 있는 값을 복사해서 새로운
-        //    배열에 넣어줍니다.
-        for (int i = 0; i < size; i++)
-        {
-            pointer[i] = vertex[i];
-        }
-
-        // 5. 기존 배열의 메모리를 해제합니다.
-        if (vertex != nullptr)
-        {
-            delete[] vertex;
-        }
-
-        // 6. 기존에 배열을 가리키던 포인터 변수의 값을
-        //    새로운 배열의 시작 주소로 가리킵니다.
-        vertex = pointer;
-    }
-
-    void resize()
-    {
-        int** newMatrix = new int* [size];
-
-        for (int i = 0; i < size; i++)
-        {
-            newMatrix = new int[size] {0};
-        }
-
-        for (int i = 0; i < matrixCount; i++)
-        {
-            for (int j = 0; j < matrixCount; j++)
-            {
-                newMatrix[i][j] = matrix[i][j];
-            }
-        }
-
-        if (matrix != nullptr)
-        {
-            for (int i = 0; i < matrixCount; i++)
-            {
-                delete[] matrix[i];
-            }
-
-            delete[] matrix;
-        }
-
-        matrix = newMatrix;
-
-        matrixCount = size;
+            vertex[size++] = data;
+        }                  
     }
 
     void edge(int i, int j)
     {
         if (size <= 0)
         {
-            cout << "adjancency matrix is empty" << endl;
+            cout << "adjacency list is empty" << endl;
         }
         else if (i >= size || j >= size)
         {
@@ -114,42 +60,28 @@ public:
         }
         else
         {
-            if (matrix == nullptr)
-            {
-                matrixCount = size;
-
-                matrix = new int * [size];
-
-                for (int i = 0; i < size; i++)
-                {
-                    matrix[i] = new int[size];
-                }
-
-                for (int i = 0; i < size; i++)
-                {
-                    for (int j = 0; j < size; j++)
-                    {
-                        matrix[i][j] = 0;
-                    }
-                }
-            }
-            else if (matrixCount < size)
-            {
-                resize();
-            }
+            list[i] = new Node(vertex[j], list[i]);
+            list[j] = new Node(vertex[i], list[j]);
         }
+    }
+
+    ~AdjacecnyList()
+    {
+      
     }
 };
 
+
 int main()
 {
-    AdjacencyMatrix<int> adjacencyMatrix;
+    AdjacecnyList<char> adjacencyList;
 
-    adjacencyMatrix.push(5);
-    adjacencyMatrix.push(7);
-    adjacencyMatrix.push(12);
+    adjacencyList.push('A');
+    adjacencyList.push('B');
+    adjacencyList.push('C');
 
-    adjacencyMatrix.edge(5, 10);
+    adjacencyList.edge(0, 1);
+    adjacencyList.edge(0, 2);
 
     return 0;
 }
