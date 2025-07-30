@@ -1,87 +1,97 @@
 ﻿#include <iostream>
 
-#define SIZE 10
-
 using namespace std;
 
-template<typename T>
-class AdjacecnyList
+template <typename T>
+class Set
 {
 private:
     struct Node
     {
         T data;
-        Node * next;
 
-        Node(T data, Node * link = nullptr)
-        {
-            this->data = data;
-            next = link;
-        }
+        Node * left;
+        Node * right;
     };
 
-    int size; // 정점의 개수
-    T vertex[SIZE]; // 정점의 집합
-    Node* list[SIZE]; // 인접 리스트
-
+    int size;
+    Node * root;
 public:
-    AdjacecnyList()
+    Set()
     {
         size = 0;
-
-        for (int i = 0; i < SIZE; i++)
-        {
-            list[i] = NULL;
-            vertex[i] = NULL;
-        }
+        root = nullptr;
     }
 
-    void push(T data)
+    Node * create_node(T data)
     {
-        if (size >= SIZE)
+        Node* newNode = new Node;
+
+        newNode->data = data;
+        newNode->left = nullptr;
+        newNode->right = nullptr;
+
+        size++;
+
+        return newNode;
+    }
+
+    void insert(T data)
+    {
+        if (root == nullptr)
         {
-            cout << "Adjacency List Overflow" << endl;
+            root = create_node(data);
         }
         else
         {
-            vertex[size++] = data;
-        }                  
+            Node * currentNode = root;
+
+            while (currentNode != nullptr)
+            {
+                if (currentNode->data == data)
+                {
+                    return;
+                }
+                else if (currentNode->data > data)
+                {
+                    if (currentNode->left == nullptr)
+                    {
+                        currentNode->left = create_node(data);
+                        
+                        return;
+                    }
+                    else
+                    {
+                        currentNode = currentNode->left;
+                    }  
+                }
+                else
+                {
+                    if (currentNode->right == nullptr)
+                    {
+                        currentNode->right = create_node(data);
+
+                        return;
+                    }
+                    else
+                    {
+                        currentNode = currentNode->right;
+                    }
+                }
+            }
+        }
     }
 
-    void edge(int i, int j)
-    {
-        if (size <= 0)
-        {
-            cout << "adjacency list is empty" << endl;
-        }
-        else if (i >= size || j >= size)
-        {
-            cout << "index out of range" << endl;
-        }
-        else
-        {
-            list[i] = new Node(vertex[j], list[i]);
-            list[j] = new Node(vertex[i], list[j]);
-        }
-    }
-
-    ~AdjacecnyList()
-    {
-      
-    }
 };
-
 
 int main()
 {
-    AdjacecnyList<char> adjacencyList;
+    Set<int> set;
 
-    adjacencyList.push('A');
-    adjacencyList.push('B');
-    adjacencyList.push('C');
-
-    adjacencyList.edge(0, 1);
-    adjacencyList.edge(0, 2);
+    set.insert(10);
+    set.insert(6);
+    set.insert(15);
+    set.insert(20);
 
     return 0;
 }
