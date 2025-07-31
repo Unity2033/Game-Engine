@@ -82,6 +82,95 @@ public:
         }
     }
 
+    void release(Node* root)
+    {
+        if (root != nullptr)
+        {
+            release(root->left);
+
+            release(root->right);
+
+            delete root;
+        }
+    }
+
+    void erase(T data)
+    {
+        Node* currentNode = root;
+        Node* parentNode = nullptr;
+
+        while (currentNode != nullptr && currentNode->data != data)
+        {
+            parentNode = currentNode;
+
+            if (currentNode->data > data)
+            {
+                currentNode = currentNode->left;
+            }
+            else
+            {
+                currentNode = currentNode->right;
+            }
+        }
+
+        if (currentNode == nullptr)
+        {
+            cout << "the data does not exist" << endl;
+        }
+        else if (currentNode->left == nullptr && currentNode->right == nullptr)
+        {
+            if (parentNode != nullptr)
+            {
+                if (parentNode->left == currentNode)
+                {
+                    parentNode->left = nullptr;
+                }
+                else
+                {
+                    parentNode->right = nullptr;
+                }
+            }
+            else
+            {
+                root = nullptr;
+            }
+        }
+        else if (currentNode->left == nullptr || currentNode->right == nullptr)
+        {
+            if(currentNode == root)
+            { 
+                if (currentNode->left != nullptr)
+                {
+                    root = currentNode->left;
+                }
+                else
+                {
+                    root = currentNode->right;
+                }          
+            }
+            else
+            {
+                if (currentNode->left != nullptr)
+                {
+                    parentNode->left = currentNode->left;
+                }
+                else
+                {
+                    parentNode->right = currentNode->right;
+                }
+            }
+        }
+
+
+
+         delete currentNode;
+    }
+
+    ~Set()
+    {
+        release(root);
+    }
+
 };
 
 int main()
@@ -92,6 +181,8 @@ int main()
     set.insert(6);
     set.insert(15);
     set.insert(20);
+
+    set.erase(15);
 
     return 0;
 }
