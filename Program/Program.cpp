@@ -1,42 +1,58 @@
 ﻿#include <iostream>
+#include <vector>
+
+#define SIZE 8
 
 using namespace std;
 
-int fibonacci(int n)
+class Graph
 {
-	if (n <= 1)
+private:
+	bool visited[SIZE];
+	vector<int> adjacencyList[SIZE];
+
+public:
+	Graph()
 	{
-		return n;
+		for (int i = 0; i < SIZE; i++)
+		{
+			visited[i] = false;
+		}
 	}
-	else
+
+	void insert(int i, int j)
 	{
-		return fibonacci(n - 1) + fibonacci(n - 2);
+		adjacencyList[i].push_back(j);
+		adjacencyList[j].push_back(i);
 	}
-}
+};
+
 
 int main()
 {
-#pragma region 동적 계획법
-	// 특정 범위까지의 값을 구하기 위해 그것과 다른 범위 
-	// 까지의 값을 이용하여 효율적으로 값을 구하는 알고리즘입니다.
+#pragma region 깊이 우선 탐색 (Depth First Search)
+	// root 노드에서부터 다음 분기로 넘어가기 전에
+	// 해당 분기를 완벽하게 탐색하는 방법입니다.
 
-	// 겹치는 부분 문제 (Overlapping Subproblems) 
-	// 동일한 작은 문제들이 반복하여 나타나는 경우를 의미합니다.
+	// 깊이 우선 탐색은 스택을 활용합니다.
 
-	// 최적 부분 구조 (Optimal Substructure) 
-	// 부분 문제의 최적 결과 값을 사용하여 전체 문제의 최적의
-	// 결과를 낼 수 있는 경우를 의미합니다.
+	Graph graph;
 
-	// 메모이제이션 (Memoization)
-	// 프로그램이 동일한 계산을 반복해야 할 때, 이전에 계산한 값을
-	// 메모리에 저장함으로써 동일한 계산을 반복 수행하는 작업을 
-	// 제거하여 프로그램이 실행 속도를 향상시키는 방법입니다.
+	graph.insert(1, 2);
+	graph.insert(1, 3);
 
-	//  cout << fibonacci(45) << endl;
+	graph.insert(2, 3);
+	graph.insert(2, 4);
+	graph.insert(2, 5);
+
+	graph.insert(3, 6);
+	graph.insert(3, 7);
+
+	graph.insert(4, 5);
+	graph.insert(6, 7);
 
 
 #pragma endregion
-
 
 	return 0;
 }
