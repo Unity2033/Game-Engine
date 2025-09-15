@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d48ababa70c17d64baaf4503b11c5253
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 331744
+  packageName: PostApoSurvivalTools_Free
+  packageVersion: 1.0
+  assetPath: Assets/FREE/PostApoSurvivalTools_Free/Materials/MAT_Survival_Metal.mat
+  uploadId: 784828
