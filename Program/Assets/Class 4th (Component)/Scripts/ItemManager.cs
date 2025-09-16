@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class ItemManager : MonoBehaviour
 {
-    [SerializeField] Item [ ] items;  
+    [SerializeField] int count;
+    [SerializeField] Item [ ] items;
 
     void Start()
     {
@@ -13,7 +14,15 @@ public class ItemManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
+            Swap();
+        }
 
+        if(Input.GetMouseButtonDown(0))
+        {
+            if (items[count].gameObject.activeSelf)
+            {
+                items[count].Activate();
+            }
         }
     }
 
@@ -23,5 +32,16 @@ public class ItemManager : MonoBehaviour
         {
             items[i].gameObject.SetActive(false);
         }
+
+        count = items.Length - 1;
+    }
+
+    void Swap()
+    {
+        items[count].gameObject.SetActive(false);
+
+        count = (count + 1) % items.Length;
+
+        items[count].gameObject.SetActive(true);
     }
 }
