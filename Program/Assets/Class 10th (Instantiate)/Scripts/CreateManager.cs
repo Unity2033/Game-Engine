@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -5,6 +6,7 @@ public class CreateManager : MonoBehaviour
 {
     [SerializeField] int count;
     [SerializeField] float time;
+    [SerializeField] int coroutineCount;
 
     [SerializeField] GameObject prefab;
     [SerializeField] List<GameObject> list; 
@@ -12,6 +14,8 @@ public class CreateManager : MonoBehaviour
     void Start()
     {
         Create();
+
+        StartCoroutine(Coroutine());
     }
 
     void Create()
@@ -26,17 +30,22 @@ public class CreateManager : MonoBehaviour
         }
     }
 
-    private void Update()
+    IEnumerator Coroutine()
     {
-        time += Time.deltaTime;
-
-        if(time >= 5.0f)
+        while (coroutineCount < list.Count)
         {
-            Debug.Log("event call");
+            int index = Random.Range(0, list.Count);
 
-            time = 0.0f;
+            yield return new WaitForSeconds(5f);
+
+            if (list[index].activeSelf)
+            { 
+                index = (index + 1) % list.Count;
+            }
+
+            list[index].SetActive(true);
+
+            coroutineCount++;
         }
-
     }
-
 }
