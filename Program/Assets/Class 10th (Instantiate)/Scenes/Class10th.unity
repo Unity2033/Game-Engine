@@ -290,6 +290,12 @@ MonoBehaviour:
   coroutineCount: 0
   prefab: {fileID: 2788726836488354371, guid: c13bc1d4eeb22ff428e44a1ab4e03056, type: 3}
   list: []
+  randomPosition:
+  - {x: 4, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: -2, y: 0, z: 0}
+  - {x: 2, y: 0, z: 0}
+  - {x: -4, y: 0, z: 0}
 --- !u!4 &1572482192
 Transform:
   m_ObjectHideFlags: 0

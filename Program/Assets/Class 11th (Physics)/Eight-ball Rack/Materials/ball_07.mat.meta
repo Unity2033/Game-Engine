@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: abcf5dde32df6424cb9758c0d209166a
+labels:
+- Pool
+- Billiard
+- Sport
+- Prop
+- Ball
+- Rack
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 24730
+  packageName: Eight-Ball Rack
+  packageVersion: 1.6
+  assetPath: Assets/Eight-ball Rack/Materials/ball_07.mat
+  uploadId: 411206
