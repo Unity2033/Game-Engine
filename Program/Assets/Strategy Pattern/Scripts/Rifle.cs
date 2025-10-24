@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class Rifle : Weapon
 {
+    [SerializeField] GameObject bullet;
+    [SerializeField] Transform createPosition;
+
     public override void Attack()
     {
-        Debug.Log("Rifle Attack");
+        Instantiate(bullet, createPosition.position, Quaternion.Euler(90,0,0));
     }
 }
