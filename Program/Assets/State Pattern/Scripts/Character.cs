@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    [SerializeField] Animator animator;
+    public Animator animator;
+
+    [SerializeField] IStateable stateable;
 
     private void Awake()
     {
@@ -11,14 +13,17 @@ public class Character : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            Attack();
-        }
+        stateable.Update(this);
     }
 
-    public void Attack()
+    public void SwitchState(IStateable state)
     {
-        animator.SetTrigger("Attack");
+        stateable?.Exit(this);
+
+        stateable = state;
+
+        stateable?.Enter(this);
     }
+
+ 
 }
