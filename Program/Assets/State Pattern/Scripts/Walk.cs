@@ -4,7 +4,7 @@ public class Walk : IStateable
 {
     public void Enter(Character character)
     {
-        
+      
     }
 
     public void Exit(Character character)
@@ -15,20 +15,20 @@ public class Walk : IStateable
 
     public void Update(Character character)
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        int x = (int)Input.GetAxisRaw("Horizontal");
+        int y = (int)Input.GetAxisRaw("Vertical");
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             character.SwitchState(new Attack());
         }
 
-        if((Mathf.Abs((int)Input.GetAxisRaw("Horizontal")) == 0) || (Mathf.Abs((int)Input.GetAxisRaw("Vertical")) == 0))
+        if((x == 0) && (y == 0))
         {
             character.SwitchState(new Idle());
         }
 
-        int x = (int)Input.GetAxisRaw("Horizontal");
-        int y = (int)Input.GetAxisRaw("Vertical");
-
         character.animator.SetInteger("X", x);
-        character.animator.SetInteger("Y", x);
+        character.animator.SetInteger("Y", y);
     }
 }

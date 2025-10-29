@@ -20,7 +20,10 @@ public class Idle : IStateable
             character.SwitchState(new Attack());
         }
 
-        if(Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0 || Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0)
+        int x = Mathf.Abs((int)Input.GetAxisRaw("Horizontal"));
+        int y = Mathf.Abs((int)Input.GetAxisRaw("Vertical"));
+
+        if ((x > 0) || (y > 0))
         {
             character.SwitchState(new Walk());
         }
