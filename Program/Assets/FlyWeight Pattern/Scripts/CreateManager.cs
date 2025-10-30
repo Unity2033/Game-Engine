@@ -1,16 +1,24 @@
+using System.Collections;
 using UnityEngine;
 
 public class CreateManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] GameObject prefab;
+    [SerializeField] Transform createPosition;
+
     void Start()
     {
-        
+        StartCoroutine(Create());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator Create()
     {
-        
+        while(true)
+        {
+            yield return CoroutineManager.GetCachedWait(Random.Range(1, 6));
+
+            Instantiate(prefab, createPosition.position, prefab.transform.rotation);
+        }
     }
+    
 }
