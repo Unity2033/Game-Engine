@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f757b320558b7984c96b025d56b0fd51
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144940
+  packageName: Bunny Ball Assets
+  packageVersion: 1.0
+  assetPath: Assets/Prefabs/Player.prefab
+  uploadId: 363458

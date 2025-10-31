@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 491bd8061d6ec424685c13c6f1f8f175
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144940
+  packageName: Bunny Ball Assets
+  packageVersion: 1.0
+  assetPath: Assets/Materials/GradientSkybox.mat
+  uploadId: 363458
