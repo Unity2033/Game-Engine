@@ -9,11 +9,6 @@ public class Decorator : IStatus
         innerStatus = status;
     }
 
-    public virtual void Apply()
-    {
-        innerStatus.Apply();
-    }
-
     public virtual void Update()
     {
         innerStatus.Update();
