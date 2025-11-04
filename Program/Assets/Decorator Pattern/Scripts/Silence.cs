@@ -2,12 +2,10 @@ using UnityEngine;
 
 public class Silence : Decorator
 {
-    public Silence(IStatus status) : base(status) { }
-
-    public override void Update()
+    public override void Activate()
     {
-        base.Update();
+        debuff.Activate();
 
-        Debug.Log("Slience State");
+        Debug.Log("Silence");
     }
 }

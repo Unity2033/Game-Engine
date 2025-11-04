@@ -2,12 +2,10 @@ using UnityEngine;
 
 public class Fear : Decorator
 {
-    public Fear(IStatus status) : base(status) { }
-
-    public override void Update()
+    public override void Activate()
     {
-        base.Update();
+        debuff.Activate();
 
-        Debug.Log("Fear State");
+        Debug.Log("Fear");
     }
 }

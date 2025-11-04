@@ -1,7 +1,6 @@
 using UnityEngine;
 
-public interface IStatus 
+public abstract class Debuff : MonoBehaviour
 {
-    public void Update();
-    
+    public abstract void Activate();  
 }
