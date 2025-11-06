@@ -6,17 +6,25 @@ public class Bee : MonoBehaviour
     [SerializeField] Vector3 direction;
     [SerializeField] Transform targetTransform;
 
-    void Start()
+    void OnEnable()
     {
         targetTransform = GameObject.Find("Sand Pillar").transform;
 
-        direction = transform.position - targetTransform.position;
+        transform.LookAt(targetTransform);
 
-        transform.LookAt(direction);
+        direction = (targetTransform.position - transform.position).normalized;
     }
 
     void Update()
     {
-        transform.Translate(direction * speed * Time.deltaTime);
+        transform.Translate(direction * speed * Time.deltaTime, Space.World);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Pillar"))
+        {
+            ObjectPool.Instance.ReturnObject(gameObject);
+        }
     }
 }
